@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Less NameError: variable @line-height-computed is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\forms.less on line 24, column 18: \A 23   padding: 0; \A 24   margin-bottom: @line-height-computed; \A 25   font-size: (@font-size-base * 1.5); \A  \A '}body *{display:none}

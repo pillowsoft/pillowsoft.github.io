@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .input-lg is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\input-groups.less on line 42, column 45: \A 41 .input-group-lg > .input-group-addon, \A 42 .input-group-lg > .input-group-btn > .btn { .input-lg(); } \A 43 .input-group-sm > .form-control, \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

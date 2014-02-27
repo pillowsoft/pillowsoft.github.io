@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Less NameError: variable @nav-link-padding is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\navs.less on line 22, column 16: \A 21       display: block; \A 22       padding: @nav-link-padding; \A 23       &:hover, \A  \A '}body *{display:none}
