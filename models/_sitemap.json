@@ -25,6 +25,12 @@
   },
   {
     "directory": false,
+    "key": "articles",
+    "name": "Articles",
+    "url": "/articles"
+  },
+  {
+    "directory": false,
     "key": "blog",
     "name": "Blog",
     "url": "/blog"
