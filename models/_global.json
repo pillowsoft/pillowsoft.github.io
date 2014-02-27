@@ -1,0 +1,31 @@
+{
+  "brand": "PillowSoft LLC",
+  "hasNavBarBrandImage": false,
+  "author": {
+	  "company": "PillowSoft LLC",
+	  "owner": "Brad Pillow"
+  },
+  "web_dev": {
+	  "brand" : "PillowSoft",
+	  "link": "http://www.pillowsoft.com",
+	  "alt_text": "link to Pillowsoft home page"
+  },
+  "pages" : [
+	  {
+		  "url": "index",
+		  "title": "Home"
+	  },
+	  {
+		  "url": "blog",
+		  "title": "Blog"
+	  },
+	  {
+		  "url": "about",
+		  "title": "About"
+	  },
+	  {
+		  "url": "archive",
+		  "title": "Archive"
+	  }
+  ]
+}

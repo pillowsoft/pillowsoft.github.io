@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @jumbotron-padding is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\jumbotron.less on line 7, column 12: \A 6 .jumbotron { \A 7   padding: @jumbotron-padding; \A 8   margin-bottom: @jumbotron-padding; \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 
