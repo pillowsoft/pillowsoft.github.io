@@ -20,19 +20,19 @@
 	<pubDate>Fri, 21 Sep 2012 00:00:00 GMT</pubDate>
 	<description>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at &amp;#8220;cutting the cord&amp;#8221;. The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here&amp;#8217;s the one...</description>
 </item><item>
-	<title>All Ideas Have Ancestors</title>
-	<link>/article/all-ideas-have-ancestors</link>
-	<guid>/article/all-ideas-have-ancestors</guid>
-	
-	<pubDate>Thu, 20 Sep 2012 00:00:00 GMT</pubDate>
-	<description>Check out these wonderfully done videos on &amp;#8220;Everything Is A Remix&amp;#8221;. They are short, but fascinating to watch and to the point: Everything is a Remix Part 1 from Kirby Ferguson on Vimeo. Everything is a Remix Part 2 from Kirby Ferguson on Vimeo. Everything is a Remix Part 3...</description>
-</item><item>
 	<title>Amazon S3 Web Hosting</title>
 	<link>/article/s3-web-hosting</link>
 	<guid>/article/s3-web-hosting</guid>
 	
 	<pubDate>Thu, 20 Sep 2012 00:00:00 GMT</pubDate>
 	<description>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn&amp;#8217;t give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good...</description>
+</item><item>
+	<title>All Ideas Have Ancestors</title>
+	<link>/article/all-ideas-have-ancestors</link>
+	<guid>/article/all-ideas-have-ancestors</guid>
+	
+	<pubDate>Thu, 20 Sep 2012 00:00:00 GMT</pubDate>
+	<description>Check out these wonderfully done videos on &amp;#8220;Everything Is A Remix&amp;#8221;. They are short, but fascinating to watch and to the point: Everything is a Remix Part 1 from Kirby Ferguson on Vimeo. Everything is a Remix Part 2 from Kirby Ferguson on Vimeo. Everything is a Remix Part 3...</description>
 </item>
 		
 	</channel>
