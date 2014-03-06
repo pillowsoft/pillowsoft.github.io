@@ -7,9 +7,9 @@
 		<description>Welcome to the PillowSoft Blog</description>
 		<language>en</language>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Thu, 06 Mar 2014 14:12:56 -0500</copyright>
-		<pubDate>Thu, 06 Mar 2014 14:12:56 -0500</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2014 14:12:56 -0500</lastBuildDate>
+		<copyright>Thu, 06 Mar 2014 14:14:30 -0500</copyright>
+		<pubDate>Thu, 06 Mar 2014 14:14:30 -0500</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2014 14:14:30 -0500</lastBuildDate>
 		
 			<item>
 	<title>Testing Unpublished</title>
@@ -18,7 +18,7 @@
 	
 	<category>General</category>
 	
-	<pubDate>a, 5 b Y 0:3:S G3T</pubDate>
+	<pubDate>Wed, 05 Mar 2014 00:00:00 -0500</pubDate>
 	<description>Testing...1, 2, 3...just a test to get my feeds working.
 </description>
 </item><item>
@@ -28,7 +28,7 @@
 	
 	<category>Dev</category>
 	
-	<pubDate>a, 20 b Y 0:9:S G9T</pubDate>
+	<pubDate>Thu, 20 Sep 2012 00:00:00 -0500</pubDate>
 	<description>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
 
 
@@ -86,7 +86,7 @@ Amazon S3 Website Hosting Tutorial
 	
 	<category>General</category>
 	
-	<pubDate>a, 17 b Y 0:8:S G8T</pubDate>
+	<pubDate>Fri, 17 Aug 2012 00:00:00 -0500</pubDate>
 	<description>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.
 
 Ingredients
@@ -122,7 +122,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 	
 	<category>General</category>
 	
-	<pubDate>a, 20 b Y 0:9:S G9T</pubDate>
+	<pubDate>Thu, 20 Sep 2012 00:00:00 -0500</pubDate>
 	<description>Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
 
 
