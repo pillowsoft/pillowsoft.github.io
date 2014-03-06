@@ -1,0 +1,153 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Pillow's Ponderings'</title>
+	<subtitle>Pondering the universe and it's wonder.</subtitle>
+	<link href="/feed/" rel="self" />
+	<link href="" />
+	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
+	<updated>2003-12-13T18:30:02Z</updated>
+
+	<entry>
+		
+			<entry>
+	<title>Amazon S3 Web Hosting</title>
+	<link>/posts/s3-web-hosting.html</link>
+	<id>/posts/s3-web-hosting.html</id>
+	
+	<category>Dev</category>
+	
+	<updated>a, 20 b Y 0:9:S G9T</updated>
+	<summary>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
+
+
+
+Features of hosting on S3
+
+
+relatively easy to set up
+relatively low cost (for the traffic and space I am using)
+ability to support multiple different websites
+speedy, it seems very fast
+some ability to control access to various parts of the website
+
+
+Setup
+
+Set up was quite simple. Look into any one of the blog entries listed below on how to do it. No need for me to really repeat all this. I did get caught up on a couple of things, one simple way to update files on your bucket and to access control lists.
+
+I am using CyberDuck on the Mac to upload my files. It is quick, free (donation-ware) and seems to work well. I actually use the Amazon S3 console on their website to initialize and create the buckets. You need to make sure your buckets are named after basically what is going to be there, i.e.,
+
+www.mywebsite.com
+
+I did get tripped up a bit on the access permissions to the website. When I initially uploaded the website, things appeared to be working okay but I would occasionally get a page or an image that did not show up correctly. It turns out that I had not set any access permissions and that while the basic permissions sort of work, they weren't really the correct thing to do. One actually needs to go into the S3 console on the web and set up the bucket access control lists. Go here for more details. I ended up copying verbatim what was there and replacing the web part of the main part my your actual domain part.
+
+{
+  "Version":"2008-10-17",
+  "Statement":[{
+    "Sid":"PublicReadGetObject",
+      "Effect":"Allow",
+      "Principal": { "AWS": "*" },
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::www.mydomainname.com/*"]
+  }]
+}
+
+
+Note: the date above is for the version of the access spec, so don't try like I did to change it to todays date.
+
+References:
+
+[Tutorial] How to Host Your Website on Amazon S3
+
+Lower your Amazon S3 Bill and also Improve Website Loading Time
+
+Host Your Static Website on Amazon S3
+
+Amazon: Hosting Websites on Amazon S3
+
+Amazon S3 Website Hosting Tutorial
+</summary>
+</entry>
+
+<entry>
+	<title>Cutting the cord</title>
+	<link>/posts/cut-the-cord.html</link>
+	<id>/posts/cut-the-cord.html</id>
+	
+	<category>General</category>
+	
+	<updated>a, 17 b Y 0:8:S G8T</updated>
+	<summary>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.
+
+Ingredients
+
+
+You'll need an HDHomeRun for $139 which will connect to your cable. This little box has 2 cable tuners in it, and takes whatever the tuners see and converts them to video that can be stored on your Mac. Note, this only works with unencrypted TV on your cable. If you stop your cable TV service, but keep your cable internet, you'll still be able to receive the major free channels (i.e. CBS, NBC, etc.). You'll be bale to watch those "live" on any TV in your house, as well as DVR them using the software below.
+
+
+
+
+
+EyeTV, a software app for your Mac the works with the HDHomeRun to act as a DVR. That will run you \(80.  You'll also need a TV Guide Subscription which will be used with the EyeTV app to provide scheduling and show information. That will run you about\)12 per year. Note, your Mac needs to be on all the time to record the videos, so this only works well with desktop Macs that aren't being constantly moved.
+
+
+
+
+
+One or more AppleTV's. These will allow you to view the material you DVR'd with the HDHomeRun on a TV. They also allow you to watch youtube, NetFlix (if you have a NetFlix account), and many other sources of media.
+
+
+
+
+I very rarely watch live TV, so my modus operandi here is to DVR those shows I like off standard network television. I then tell EyeTV that when it's done recording, it should convert them to AppleTV format and add them to an iTunes playlist. That playlist is visible on my AppleTV and I can watch the video whenever I want. I also subscribe to a number of wonderful free podcasts (TED, The Random Show, etc.). A whole host of wonderful videos are also available on Youtube and Vimeo, both of which are supported natively in the AppleTV.  Many time I like downloading and retaining YouTube and Vimeo videos.  Vimeo allows you to do that by default, but you have to use Google Chrome and a Chrome plugin called FastestTube to download videos off Youtube. It doesn't always works, but seems to most of the time.
+
+There's a first stab at notes on how to cut the cord. More to come...
+
+
+</summary>
+</entry>
+
+<entry>
+	<title>All Ideas Have Ancestors</title>
+	<link>/posts/all-ideas-have-ancestors.html</link>
+	<id>/posts/all-ideas-have-ancestors.html</id>
+	
+	<category>General</category>
+	
+	<updated>a, 20 b Y 0:9:S G9T</updated>
+	<summary>Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
+
+
+
+ Everything is a Remix Part 1 from Kirby Ferguson on Vimeo.
+
+ Everything is a Remix Part 2 from Kirby Ferguson on Vimeo.
+
+ Everything is a Remix Part 3 from Kirby Ferguson on Vimeo.
+
+ Everything is a Remix Part 4 from Kirby Ferguson on Vimeo.
+
+
+
+Once you have watched them, watch these two videos that are on the same topics, but specific to these movies:
+
+
+
+ Everything Is A Remix: THE MATRIX from robgwilson.com on Vimeo.
+
+
+
+
+
+
+The point of these movies is that everything is a remix, or essentially a combination of other ideas.  I've been fascinated for years with genetic programming. It's the same idea, but for programs rather than ideas. Kirby Ferguson, who did the Part 1-4 movies is making a new one called "This is Not a Conspiracy Theory". It looks to be fascinating as well. You can read more about it and his work on his web site, Every Thing Is A Remix.
+</summary>
+</entry>
+
+
+		
+	</entry>
+</feed>
+

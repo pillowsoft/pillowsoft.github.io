@@ -1,5 +1,5 @@
 
-<meta http-equiv="Content-Type" content=""application/xml" "; charset=UTF-8" />
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 	<channel>
 		<generator>Sytropia</generator>
@@ -14,7 +14,7 @@
 		
 			<item>
 	<title>Amazon S3 Web Hosting</title>
-	<link></link>
+	<link>/posts/s3-web-hosting.html</link>
 	<guid>/posts/s3-web-hosting.html</guid>
 	
 	<category>Dev</category>
@@ -72,7 +72,7 @@ Amazon S3 Website Hosting Tutorial
 </description>
 </item><item>
 	<title>Cutting the cord</title>
-	<link></link>
+	<link>/posts/cut-the-cord.html</link>
 	<guid>/posts/cut-the-cord.html</guid>
 	
 	<category>General</category>
@@ -108,7 +108,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 </description>
 </item><item>
 	<title>All Ideas Have Ancestors</title>
-	<link></link>
+	<link>/posts/all-ideas-have-ancestors.html</link>
 	<guid>/posts/all-ideas-have-ancestors.html</guid>
 	
 	<category>General</category>
@@ -145,3 +145,5 @@ The point of these movies is that everything is a remix, or essentially a combin
 		
 	</channel>
 </rss>
+
+
