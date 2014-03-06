@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 	<channel>
-		<generator>Sytropia</generator>
 		<title>Pillow's Ponderings</title>
-		<link>http://pillowsoft.github.io/</link>
+		<link>http:/pillowsoft.github.io/</link>
 		<description>Welcome to the PillowSoft Blog</description>
 		<language>en</language>
+		<ttl>1800</ttl>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Thu, 06 Mar 2014 14:15:46 -0500</copyright>
-		<pubDate>Thu, 06 Mar 2014 14:15:46 -0500</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2014 14:15:46 -0500</lastBuildDate>
+		<copyright>Thu, 06 Mar 2014 14:26:12 -0500</copyright>
+		<pubDate>Thu, 06 Mar 2014 14:26:12 -0500</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2014 14:26:12 -0500</lastBuildDate>
 		
 			<item>
 	<title>Testing Unpublished</title>
-	<link>http://pillowsoft.github.io//posts/test-unpublished.html</link>
-	<guid>http://pillowsoft.github.io//posts/test-unpublished.html</guid>
+	<link>http:/pillowsoft.github.io/posts/test-unpublished.html</link>
+	<guid>http:/pillowsoft.github.io/posts/test-unpublished.html</guid>
 	
 	<category>General</category>
 	
 	<pubDate>Wed, 05 Mar 2014 00:00:00 -0500</pubDate>
 	<description>Testing...1, 2, 3...just a test to get my feeds working.
 </description>
-</item><item>
+</item>
+<item>
 	<title>Amazon S3 Web Hosting</title>
-	<link>http://pillowsoft.github.io//posts/s3-web-hosting.html</link>
-	<guid>http://pillowsoft.github.io//posts/s3-web-hosting.html</guid>
+	<link>http:/pillowsoft.github.io/posts/s3-web-hosting.html</link>
+	<guid>http:/pillowsoft.github.io/posts/s3-web-hosting.html</guid>
 	
 	<category>Dev</category>
 	
@@ -79,10 +80,11 @@ Amazon: Hosting Websites on Amazon S3
 
 Amazon S3 Website Hosting Tutorial
 </description>
-</item><item>
+</item>
+<item>
 	<title>Cutting the cord</title>
-	<link>http://pillowsoft.github.io//posts/cut-the-cord.html</link>
-	<guid>http://pillowsoft.github.io//posts/cut-the-cord.html</guid>
+	<link>http:/pillowsoft.github.io/posts/cut-the-cord.html</link>
+	<guid>http:/pillowsoft.github.io/posts/cut-the-cord.html</guid>
 	
 	<category>General</category>
 	
@@ -115,10 +117,11 @@ There's a first stab at notes on how to cut the cord. More to come...
 
 
 </description>
-</item><item>
+</item>
+<item>
 	<title>All Ideas Have Ancestors</title>
-	<link>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</link>
-	<guid>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</guid>
+	<link>http:/pillowsoft.github.io/posts/all-ideas-have-ancestors.html</link>
+	<guid>http:/pillowsoft.github.io/posts/all-ideas-have-ancestors.html</guid>
 	
 	<category>General</category>
 	
@@ -151,6 +154,9 @@ Once you have watched them, watch these two videos that are on the same topics, 
 The point of these movies is that everything is a remix, or essentially a combination of other ideas.  I've been fascinated for years with genetic programming. It's the same idea, but for programs rather than ideas. Kirby Ferguson, who did the Part 1-4 movies is making a new one called "This is Not a Conspiracy Theory". It looks to be fascinating as well. You can read more about it and his work on his web site, Every Thing Is A Remix.
 </description>
 </item>
+
 		
 	</channel>
 </rss>
+
+
