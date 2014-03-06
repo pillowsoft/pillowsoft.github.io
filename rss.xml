@@ -3,7 +3,7 @@
 	<channel>
 		<generator>Sytropia</generator>
 		<title>Pillow's Ponderings</title>
-		<link>pillowsoft.github.io</link>
+		<link>http://pillowsoft.github.io/</link>
 		<description>Welcome to the PillowSoft Blog</description>
 		<language>en</language>
 		<webMaster>blogger@pillowsoft.com</webMaster>
@@ -13,7 +13,7 @@
 		
 			<item>
 	<title>Testing Unpublished</title>
-	<link>/posts/test-unpublished.html</link>
+	<link>http://pillowsoft.github.io//posts/test-unpublished.html</link>
 	<guid>/posts/test-unpublished.html</guid>
 	
 	<category>General</category>
@@ -23,7 +23,7 @@
 </description>
 </item><item>
 	<title>Amazon S3 Web Hosting</title>
-	<link>/posts/s3-web-hosting.html</link>
+	<link>http://pillowsoft.github.io//posts/s3-web-hosting.html</link>
 	<guid>/posts/s3-web-hosting.html</guid>
 	
 	<category>Dev</category>
@@ -81,7 +81,7 @@ Amazon S3 Website Hosting Tutorial
 </description>
 </item><item>
 	<title>Cutting the cord</title>
-	<link>/posts/cut-the-cord.html</link>
+	<link>http://pillowsoft.github.io//posts/cut-the-cord.html</link>
 	<guid>/posts/cut-the-cord.html</guid>
 	
 	<category>General</category>
@@ -117,7 +117,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 </description>
 </item><item>
 	<title>All Ideas Have Ancestors</title>
-	<link>/posts/all-ideas-have-ancestors.html</link>
+	<link>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</link>
 	<guid>/posts/all-ideas-have-ancestors.html</guid>
 	
 	<category>General</category>
