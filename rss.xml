@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+     xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss"
+     xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" version="2.0">
 	<channel>
+		<atom:id>http://pillowsoft.github.io/</atom:id>
 		<title>Pillow's Ponderings</title>
 		<link href="http://pillowsoft.github.io//feed/" rel="self" />
 		<link href="http://pillowsoft.github.io/" />
@@ -8,14 +11,17 @@
 		<language>en</language>
 		<ttl>1800</ttl>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Thu, 06 Mar 2014 14:44:42 -0500</copyright>
-		<pubDate>Thu, 06 Mar 2014 14:44:42 -0500</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2014 14:44:42 -0500</lastBuildDate>
+		<copyright>Thu, 06 Mar 2014 15:12:23 -0500</copyright>
+		<pubDate>Thu, 06 Mar 2014 15:12:23 -0500</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2014 15:12:23 -0500</lastBuildDate>
 		
 			<item>
+	
+	
 	<title>Testing Unpublished</title>
-	<link>http://pillowsoft.github.io//posts/test-unpublished.html</link>
-	<guid>http://pillowsoft.github.io//posts/test-unpublished.html</guid>
+	<link>http://pillowsoft.github.io/posts/test-unpublished.html</link>
+	<guid>http://pillowsoft.github.io/posts/test-unpublished.html</guid>
+	<atom:updated>Wed, 05 Mar 2014 00:00:00 -0500</atom:updated>
 	
 	<category>General</category>
 	
@@ -23,10 +29,14 @@
 	<description>Testing...1, 2, 3...just a test to get my feeds working.
 </description>
 </item>
+
 <item>
+	
+	
 	<title>Amazon S3 Web Hosting</title>
-	<link>http://pillowsoft.github.io//posts/s3-web-hosting.html</link>
-	<guid>http://pillowsoft.github.io//posts/s3-web-hosting.html</guid>
+	<link>http://pillowsoft.github.io/posts/s3-web-hosting.html</link>
+	<guid>http://pillowsoft.github.io/posts/s3-web-hosting.html</guid>
+	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0500</atom:updated>
 	
 	<category>Dev</category>
 	
@@ -82,10 +92,14 @@ Amazon: Hosting Websites on Amazon S3
 Amazon S3 Website Hosting Tutorial
 </description>
 </item>
+
 <item>
+	
+	
 	<title>Cutting the cord</title>
-	<link>http://pillowsoft.github.io//posts/cut-the-cord.html</link>
-	<guid>http://pillowsoft.github.io//posts/cut-the-cord.html</guid>
+	<link>http://pillowsoft.github.io/posts/cut-the-cord.html</link>
+	<guid>http://pillowsoft.github.io/posts/cut-the-cord.html</guid>
+	<atom:updated>Fri, 17 Aug 2012 00:00:00 -0500</atom:updated>
 	
 	<category>General</category>
 	
@@ -119,10 +133,14 @@ There's a first stab at notes on how to cut the cord. More to come...
 
 </description>
 </item>
+
 <item>
+	
+	
 	<title>All Ideas Have Ancestors</title>
-	<link>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</link>
-	<guid>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</guid>
+	<link>http://pillowsoft.github.io/posts/all-ideas-have-ancestors.html</link>
+	<guid>http://pillowsoft.github.io/posts/all-ideas-have-ancestors.html</guid>
+	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0500</atom:updated>
 	
 	<category>General</category>
 	
@@ -156,8 +174,10 @@ The point of these movies is that everything is a remix, or essentially a combin
 </description>
 </item>
 
+
 		
 	</channel>
 </rss>
+
 
 
