@@ -13,6 +13,16 @@
 		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
 		
 			<item>
+	<title>Testing Unpublished</title>
+	<link>/posts/test-unpublished.html</link>
+	<guid>/posts/test-unpublished.html</guid>
+	
+	<category>General</category>
+	
+	<pubDate>a, 5 b Y 0:3:S G3T</pubDate>
+	<description>Testing...1, 2, 3...just a test to get my feeds working.
+</description>
+</item><item>
 	<title>Amazon S3 Web Hosting</title>
 	<link>/posts/s3-web-hosting.html</link>
 	<guid>/posts/s3-web-hosting.html</guid>

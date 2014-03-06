@@ -12,6 +12,18 @@
 	<entry>
 		
 			<entry>
+	<title>Testing Unpublished</title>
+	<link>/posts/test-unpublished.html</link>
+	<id>/posts/test-unpublished.html</id>
+	
+	<category>General</category>
+	
+	<updated>a, 5 b Y 0:3:S G3T</updated>
+	<summary>Testing...1, 2, 3...just a test to get my feeds working.
+</summary>
+</entry>
+
+<entry>
 	<title>Amazon S3 Web Hosting</title>
 	<link>/posts/s3-web-hosting.html</link>
 	<id>/posts/s3-web-hosting.html</id>
