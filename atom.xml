@@ -5,16 +5,44 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="http://pillowsoft.github.io//feed/" rel="self" />
 	<link href="http://pillowsoft.github.io/" />
-	<updated>Thu, 06 Mar 2014 15:27:47 -0500</updated>
+	<updated>Thu, 06 Mar 2014 15:41:07 -0500</updated>
 
 	<entry>
 		
 			<entry>
 	
 	
-	<title>Testing Unpublished</title>
-	<link>http://pillowsoft.github.io/posts/test-unpublished.html</link>
-	<id>http://pillowsoft.github.io/posts/test-unpublished.html</id>
+	<title>Test 3</title>
+	<link>http://pillowsoft.github.io/posts/test3.html</link>
+	<id>http://pillowsoft.github.io/posts/test3.html</id>
+	
+	<category>General</category>
+	
+	<updated>Tue, 05 Mar 2013 00:00:00 -0500</updated>
+	<summary>Testing 3
+</summary>
+</entry>
+
+<entry>
+	
+	
+	<title>Test 2</title>
+	<link>http://pillowsoft.github.io/posts/test2.html</link>
+	<id>http://pillowsoft.github.io/posts/test2.html</id>
+	
+	<category>General</category>
+	
+	<updated>Sun, 05 Jan 2014 00:00:00 -0500</updated>
+	<summary>Testing...2
+</summary>
+</entry>
+
+<entry>
+	
+	
+	<title>Test 1</title>
+	<link>http://pillowsoft.github.io/posts/test1.html</link>
+	<id>http://pillowsoft.github.io/posts/test1.html</id>
 	
 	<category>General</category>
 	
