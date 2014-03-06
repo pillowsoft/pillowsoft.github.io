@@ -5,53 +5,11 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="http://www.pillowsoft.com//feed/" rel="self" />
 	<link href="http://www.pillowsoft.com/" />
-	<updated>Thu, 06 Mar 2014 17:18:58 -0500</updated>
+	<updated>Thu, 06 Mar 2014 17:27:45 -0500</updated>
 
 	<entry>
 		
 			<entry>
-	
-	
-	<title>Test 3</title>
-	<link>http://www.pillowsoft.com/posts/test3.html</link>
-	<id>http://www.pillowsoft.com/posts/test3.html</id>
-	
-	<category>General</category>
-	
-	<updated>Tue, 05 Mar 2013 00:00:00 -0500</updated>
-	<summary>Testing 3
-</summary>
-</entry>
-
-<entry>
-	
-	
-	<title>Test 2</title>
-	<link>http://www.pillowsoft.com/posts/test2.html</link>
-	<id>http://www.pillowsoft.com/posts/test2.html</id>
-	
-	<category>General</category>
-	
-	<updated>Sun, 05 Jan 2014 00:00:00 -0500</updated>
-	<summary>Testing...2
-</summary>
-</entry>
-
-<entry>
-	
-	
-	<title>Test 1</title>
-	<link>http://www.pillowsoft.com/posts/test1.html</link>
-	<id>http://www.pillowsoft.com/posts/test1.html</id>
-	
-	<category>General</category>
-	
-	<updated>Wed, 05 Mar 2014 00:00:00 -0500</updated>
-	<summary>Testing...1, 2, 3...just a test to get my feeds working.
-</summary>
-</entry>
-
-<entry>
 	
 	
 	<title>Amazon S3 Web Hosting</title>
