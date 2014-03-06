@@ -2,14 +2,14 @@
 <rss version="2.0">
 	<channel>
 		<generator>Sytropia</generator>
-		<title></title>
-		<link></link>
-		<description></description>
+		<title>Pillow's Ponderings</title>
+		<link>pillowsoft.github.io</link>
+		<description>Welcome to the PillowSoft Blog</description>
 		<language>en</language>
-		<webMaster></webMaster>
+		<webMaster>blogger@pillowsoft.com</webMaster>
 		<copyright>now</copyright>
-		<pubDate>Thu, 06 Jun 2013 12:17:05 GMT</pubDate>
-		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
+		<pubDate>now</pubDate>
+		<lastBuildDate>now</lastBuildDate>
 		
 			<item>
 	<title>Testing Unpublished</title>
