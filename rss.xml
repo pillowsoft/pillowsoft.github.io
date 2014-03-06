@@ -7,14 +7,14 @@
 		<description>Welcome to the PillowSoft Blog</description>
 		<language>en</language>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Thu, 06 Mar 2014 14:14:30 -0500</copyright>
-		<pubDate>Thu, 06 Mar 2014 14:14:30 -0500</pubDate>
-		<lastBuildDate>Thu, 06 Mar 2014 14:14:30 -0500</lastBuildDate>
+		<copyright>Thu, 06 Mar 2014 14:15:46 -0500</copyright>
+		<pubDate>Thu, 06 Mar 2014 14:15:46 -0500</pubDate>
+		<lastBuildDate>Thu, 06 Mar 2014 14:15:46 -0500</lastBuildDate>
 		
 			<item>
 	<title>Testing Unpublished</title>
 	<link>http://pillowsoft.github.io//posts/test-unpublished.html</link>
-	<guid>/posts/test-unpublished.html</guid>
+	<guid>http://pillowsoft.github.io//posts/test-unpublished.html</guid>
 	
 	<category>General</category>
 	
@@ -24,7 +24,7 @@
 </item><item>
 	<title>Amazon S3 Web Hosting</title>
 	<link>http://pillowsoft.github.io//posts/s3-web-hosting.html</link>
-	<guid>/posts/s3-web-hosting.html</guid>
+	<guid>http://pillowsoft.github.io//posts/s3-web-hosting.html</guid>
 	
 	<category>Dev</category>
 	
@@ -82,7 +82,7 @@ Amazon S3 Website Hosting Tutorial
 </item><item>
 	<title>Cutting the cord</title>
 	<link>http://pillowsoft.github.io//posts/cut-the-cord.html</link>
-	<guid>/posts/cut-the-cord.html</guid>
+	<guid>http://pillowsoft.github.io//posts/cut-the-cord.html</guid>
 	
 	<category>General</category>
 	
@@ -118,7 +118,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 </item><item>
 	<title>All Ideas Have Ancestors</title>
 	<link>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</link>
-	<guid>/posts/all-ideas-have-ancestors.html</guid>
+	<guid>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</guid>
 	
 	<category>General</category>
 	

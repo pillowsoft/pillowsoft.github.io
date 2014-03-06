@@ -5,14 +5,14 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="http://pillowsoft.github.io//feed/" rel="self" />
 	<link href="http://pillowsoft.github.io/" />
-	<updated>Thu, 06 Mar 2014 14:14:29 -0500</updated>
+	<updated>Thu, 06 Mar 2014 14:15:45 -0500</updated>
 
 	<entry>
 		
 			<entry>
 	<title>Testing Unpublished</title>
 	<link>http://pillowsoft.github.io//posts/test-unpublished.html</link>
-	<id>/posts/test-unpublished.html</id>
+	<id>http://pillowsoft.github.io//posts/test-unpublished.html</id>
 	
 	<category>General</category>
 	
@@ -24,7 +24,7 @@
 <entry>
 	<title>Amazon S3 Web Hosting</title>
 	<link>http://pillowsoft.github.io//posts/s3-web-hosting.html</link>
-	<id>/posts/s3-web-hosting.html</id>
+	<id>http://pillowsoft.github.io//posts/s3-web-hosting.html</id>
 	
 	<category>Dev</category>
 	
@@ -84,7 +84,7 @@ Amazon S3 Website Hosting Tutorial
 <entry>
 	<title>Cutting the cord</title>
 	<link>http://pillowsoft.github.io//posts/cut-the-cord.html</link>
-	<id>/posts/cut-the-cord.html</id>
+	<id>http://pillowsoft.github.io//posts/cut-the-cord.html</id>
 	
 	<category>General</category>
 	
@@ -122,7 +122,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 <entry>
 	<title>All Ideas Have Ancestors</title>
 	<link>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</link>
-	<id>/posts/all-ideas-have-ancestors.html</id>
+	<id>http://pillowsoft.github.io//posts/all-ideas-have-ancestors.html</id>
 	
 	<category>General</category>
 	
