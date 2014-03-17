@@ -57,8 +57,8 @@ $.ajaxSetup({ cache: false });
             imagePath: 'images/plusgallery',
             type: 'google',
             albumTitle: false, //show the album title in single album mode
-            albumLimit: 16, //Limit amout of albums to load initially.
-            limit: 30, //Limit of photos to load for gallery / more that 60 is dumb, separate them into different albums
+            albumLimit: 32, //Limit amout of albums to load initially.
+            limit: 400, //Limit of photos to load for gallery / more that 60 is dumb, separate them into different albums
             apiKey: '', //used with Flickr
             exclude: null,
             include: null,

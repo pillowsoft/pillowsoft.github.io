@@ -8,8 +8,8 @@
 		<language>en-us</language>
 		<ttl>1800</ttl>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Thu, 06 Mar 2014 17:27:45 -0500</copyright>
-		<lastBuildDate>Thu, 06 Mar 2014 17:27:45 -0500</lastBuildDate>
+		<copyright>Mon, 17 Mar 2014 19:50:24 -0400</copyright>
+		<lastBuildDate>Mon, 17 Mar 2014 19:50:24 -0400</lastBuildDate>
 		
 			<item>
 	
@@ -17,12 +17,14 @@
 	<title>Amazon S3 Web Hosting</title>
 	<link>http://www.pillowsoft.com/posts/s3-web-hosting.html</link>
 	<guid>http://www.pillowsoft.com/posts/s3-web-hosting.html</guid>
-<!--	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0500</atom:updated>
+<!--	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0400</atom:updated>
 	-->
 	<category>Dev</category>
 	
-	<pubDate>Thu, 20 Sep 2012 00:00:00 -0500</pubDate>
+	<pubDate>Thu, 20 Sep 2012 00:00:00 -0400</pubDate>
 	<description>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
+
+It's should cost $2.50.
 
 
 
@@ -78,11 +80,11 @@ Amazon S3 Website Hosting Tutorial
 	<title>Cutting the cord</title>
 	<link>http://www.pillowsoft.com/posts/cut-the-cord.html</link>
 	<guid>http://www.pillowsoft.com/posts/cut-the-cord.html</guid>
-<!--	<atom:updated>Fri, 17 Aug 2012 00:00:00 -0500</atom:updated>
+<!--	<atom:updated>Fri, 17 Aug 2012 00:00:00 -0400</atom:updated>
 	-->
 	<category>General</category>
 	
-	<pubDate>Fri, 17 Aug 2012 00:00:00 -0500</pubDate>
+	<pubDate>Fri, 17 Aug 2012 00:00:00 -0400</pubDate>
 	<description>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.
 
 Ingredients
@@ -108,8 +110,6 @@ One or more AppleTV's. These will allow you to view the material you DVR'd with 
 I very rarely watch live TV, so my modus operandi here is to DVR those shows I like off standard network television. I then tell EyeTV that when it's done recording, it should convert them to AppleTV format and add them to an iTunes playlist. That playlist is visible on my AppleTV and I can watch the video whenever I want. I also subscribe to a number of wonderful free podcasts (TED, The Random Show, etc.). A whole host of wonderful videos are also available on Youtube and Vimeo, both of which are supported natively in the AppleTV.  Many time I like downloading and retaining YouTube and Vimeo videos.  Vimeo allows you to do that by default, but you have to use Google Chrome and a Chrome plugin called FastestTube to download videos off Youtube. It doesn't always works, but seems to most of the time.
 
 There's a first stab at notes on how to cut the cord. More to come...
-
-
 </description>
 </item><item>
 	
@@ -117,11 +117,11 @@ There's a first stab at notes on how to cut the cord. More to come...
 	<title>All Ideas Have Ancestors</title>
 	<link>http://www.pillowsoft.com/posts/all-ideas-have-ancestors.html</link>
 	<guid>http://www.pillowsoft.com/posts/all-ideas-have-ancestors.html</guid>
-<!--	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0500</atom:updated>
+<!--	<atom:updated>Thu, 20 Sep 2012 00:00:00 -0400</atom:updated>
 	-->
 	<category>General</category>
 	
-	<pubDate>Thu, 20 Sep 2012 00:00:00 -0500</pubDate>
+	<pubDate>Thu, 20 Sep 2012 00:00:00 -0400</pubDate>
 	<description>Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
 
 

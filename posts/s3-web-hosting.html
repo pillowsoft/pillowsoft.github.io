@@ -14,27 +14,27 @@
   <title>PillowSoft</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<!--  <link href="/assets/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />-->
+<!--  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+  <link href="/assets/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom styles for this template -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
 
-
-  <link href="/assets/stylesheets/navbar-fixed-top.css" rel="stylesheet" type="text/css" />
-  <link href="/assets/stylesheets/plusgallery.css" rel="stylesheet" type="text/css" />
-  <link href="/assets/stylesheets/pygment_trac.css" rel="stylesheet" type="text/css" />
-  <link href="/assets/stylesheets/social-buttons.css" rel="stylesheet" type="text/css" />
-  <link href="/assets/stylesheets/carousel-fade.css" rel="stylesheet" type="text/css" />
   <link href="/assets/stylesheets/site.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/stylesheets/plus_gallery.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/stylesheets/pygment_trac.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/stylesheets/social_buttons.css" rel="stylesheet" type="text/css" />
+  <link href="/assets/stylesheets/carousel_fade.css" rel="stylesheet" type="text/css" />
   <link href="/assets/stylesheets/zocial/zocial.css" rel="stylesheet" type="text/css" />
   <link href="/assets/stylesheets/blockimagequote.css" rel="stylesheet" type="text/css" />
 
 
 
+
   <!--- so much depends on jQuery, that we do it here first -->
   <script src="/assets/javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
-
+  <!--- and we might need this for each page earyly...it's short -->
+  <script src="/assets/javascripts/purl.js" type="text/javascript"></script>
 
   <!-- Just for debugging purposes. Don't actually copy this line! -->
   <!--[if lt IE 9]><script src="/assets/stylesheets/javascripts/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -54,6 +54,8 @@
 
 
   <div class="container">
+    
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -63,22 +65,22 @@
       </button>
 
 	  
-      <a class="navbar-brand" href="#">PillowSoft</a>
+      <a class="navbar-brand visible-lg visible-md" href="#">PillowSoft</a>
       
 
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
     	
-            <li class=> <a href="/index.html">Home</a></li>
+            <li class=""><a href="/index.html">Home</a></li>
 		
-            <li class=> <a href="/about.html">About</a></li>
+            <li class=""><a href="/about.html">About</a></li>
 		
-            <li class=> <a href="/music.html">Music</a></li>
+            <li class=""><a href="/music.html">Music</a></li>
 		
-            <li class=> <a href="/contact_us.html">Contact Us</a></li>
+            <li class=""><a href="/contact_us.html">Contact Us</a></li>
 		
-            <li class=> <a href="/postings.html">Blog</a></li>
+            <li class=""><a href="/postings.html">Blog</a></li>
 		
       </ul>
     </div>
@@ -88,7 +90,8 @@
 
     <div class="container">
       
-  <article>
+  <div class="row">
+<article>
 	<h2><a href="Add link here!">Amazon S3 Web Hosting</a></h2>
 	<div class="date">
 	Posted: <span>September 20, 2012.</span> Tags: 
@@ -106,6 +109,8 @@
 </div>
 	<hr/>
 	<p>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.</p>
+
+<p>It's should cost $2.50.</p>
 
 <!--more-->
 
@@ -156,8 +161,9 @@
 <p><a href="http://blog.teamextension.com/amazon-s3-website-hosting-tutorial-230">Amazon S3 Website Hosting Tutorial</a></p>
 
 </article>
+</div>
 
-
+<!--
     
         <ul class="paging">
             
@@ -166,6 +172,92 @@
             
         </ul>
     
+-->
+
+<div class="row">
+    <ul id="paginator"></ul>
+</div>
+
+<script type='text/javascript'>
+    $(function(){
+        //DOM loaded
+
+        var pageTitles = new Array(); 
+        
+            
+                pageTitles[1] = "Amazon S3 Web Hosting"
+            
+                pageTitles[2] = "Cutting the cord"
+            
+                pageTitles[3] = "All Ideas Have Ancestors"
+            
+        
+
+        var pageUrls = new Array(); 
+        
+            
+                pageUrls[1] = "/posts/s3-web-hosting.html"
+            
+                pageUrls[2] = "/posts/cut-the-cord.html"
+            
+                pageUrls[3] = "/posts/all-ideas-have-ancestors.html"
+            
+        
+
+
+        
+            var url = $.url(); // parse the current page URL
+            var currentPage = url.param('pagenum');
+            if (currentPage == undefined) {
+                currentPage = 1;
+            }
+            var totalPages = 3;
+            console.log("url page number: " + currentPage);
+        
+
+        var options = {
+            currentPage: currentPage,
+            totalPages: totalPages,
+            alignment: "left",
+            bootstrapMajorVersion: 3
+            
+                
+                    , tooltipTitles: function (type, page, current) {
+                            switch (type) {
+                            case "first":
+                                return pageTitles[1];
+                            case "prev":
+                                return "";
+                            case "next":
+                                return "Cutting the cord";
+                            case "last":
+                                return pageTitles[pageTitles.length-1];
+                            case "page":
+                                return pageTitles[page];
+                            }
+                        },
+                    pageUrl: function(type, page, current) {
+                        switch (type) {
+                        case "first":
+                            return pageUrls[1];
+                        case "prev":
+                            return "";
+                        case "next":
+                            return "/posts/cut-the-cord.html";
+                        case "last":
+                            return pageUrls[pageTitles.length-1];
+                        case "page":
+                            return pageUrls[page];
+                        }
+                    }
+                
+            
+        }
+
+
+        $('#paginator').bootstrapPaginator(options);
+    });
+</script>
 
 
     </div>
@@ -184,6 +276,7 @@
 <script src="/assets/javascripts/jqBootstrapValidation.js" type="text/javascript"></script>
 <script src="/assets/javascripts/contact_me.js" type="text/javascript"></script>
 <script src="/assets/javascripts/plusgallery.js" type="text/javascript"></script>
+<script src="/assets/javascripts/bootstrap-paginator.js" type="text/javascript"></script> 
 
   </body>
 </html>

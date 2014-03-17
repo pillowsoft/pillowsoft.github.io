@@ -5,7 +5,7 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="http://www.pillowsoft.com//feed/" rel="self" />
 	<link href="http://www.pillowsoft.com/" />
-	<updated>Thu, 06 Mar 2014 17:27:45 -0500</updated>
+	<updated>Mon, 17 Mar 2014 19:50:23 -0400</updated>
 
 	<entry>
 		
@@ -18,8 +18,10 @@
 	
 	<category>Dev</category>
 	
-	<updated>Thu, 20 Sep 2012 00:00:00 -0500</updated>
+	<updated>Thu, 20 Sep 2012 00:00:00 -0400</updated>
 	<summary>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
+
+It's should cost $2.50.
 
 
 
@@ -80,7 +82,7 @@ Amazon S3 Website Hosting Tutorial
 	
 	<category>General</category>
 	
-	<updated>Fri, 17 Aug 2012 00:00:00 -0500</updated>
+	<updated>Fri, 17 Aug 2012 00:00:00 -0400</updated>
 	<summary>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.
 
 Ingredients
@@ -106,8 +108,6 @@ One or more AppleTV's. These will allow you to view the material you DVR'd with 
 I very rarely watch live TV, so my modus operandi here is to DVR those shows I like off standard network television. I then tell EyeTV that when it's done recording, it should convert them to AppleTV format and add them to an iTunes playlist. That playlist is visible on my AppleTV and I can watch the video whenever I want. I also subscribe to a number of wonderful free podcasts (TED, The Random Show, etc.). A whole host of wonderful videos are also available on Youtube and Vimeo, both of which are supported natively in the AppleTV.  Many time I like downloading and retaining YouTube and Vimeo videos.  Vimeo allows you to do that by default, but you have to use Google Chrome and a Chrome plugin called FastestTube to download videos off Youtube. It doesn't always works, but seems to most of the time.
 
 There's a first stab at notes on how to cut the cord. More to come...
-
-
 </summary>
 </entry>
 
@@ -120,7 +120,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 	
 	<category>General</category>
 	
-	<updated>Thu, 20 Sep 2012 00:00:00 -0500</updated>
+	<updated>Thu, 20 Sep 2012 00:00:00 -0400</updated>
 	<summary>Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
 
 
