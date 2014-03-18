@@ -8,8 +8,8 @@
 		<language>en-us</language>
 		<ttl>1800</ttl>
 		<webMaster>blogger@pillowsoft.com (Blog Support)</webMaster>
-		<copyright>Mon, 17 Mar 2014 22:26:00 -0400</copyright>
-		<lastBuildDate>Mon, 17 Mar 2014 22:26:00 -0400</lastBuildDate>
+		<copyright>Mon, 17 Mar 2014 22:30:12 -0400</copyright>
+		<lastBuildDate>Mon, 17 Mar 2014 22:30:12 -0400</lastBuildDate>
 		
 			<item>
 	
@@ -23,8 +23,6 @@
 	
 	<pubDate>Thu, 20 Sep 2012 00:00:00 -0400</pubDate>
 	<description>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
-
-It's should cost $2.50.
 
 
 
@@ -93,19 +91,19 @@ Ingredients
 You'll need an HDHomeRun for $139 which will connect to your cable. This little box has 2 cable tuners in it, and takes whatever the tuners see and converts them to video that can be stored on your Mac. Note, this only works with unencrypted TV on your cable. If you stop your cable TV service, but keep your cable internet, you'll still be able to receive the major free channels (i.e. CBS, NBC, etc.). You'll be bale to watch those "live" on any TV in your house, as well as DVR them using the software below.
 
 
-Liquid error: Directory '/Users/bpillow/Git/WebSitesDeploy/PillowSoft/assets' not found.
+
 
 
 EyeTV, a software app for your Mac the works with the HDHomeRun to act as a DVR. That will run you \(80.  You'll also need a TV Guide Subscription which will be used with the EyeTV app to provide scheduling and show information. That will run you about\)12 per year. Note, your Mac needs to be on all the time to record the videos, so this only works well with desktop Macs that aren't being constantly moved.
 
 
-Liquid error: Directory '/Users/bpillow/Git/WebSitesDeploy/PillowSoft/assets' not found.
+
 
 
 One or more AppleTV's. These will allow you to view the material you DVR'd with the HDHomeRun on a TV. They also allow you to watch youtube, NetFlix (if you have a NetFlix account), and many other sources of media.
 
 
-Liquid error: Directory '/Users/bpillow/Git/WebSitesDeploy/PillowSoft/assets' not found.
+
 
 I very rarely watch live TV, so my modus operandi here is to DVR those shows I like off standard network television. I then tell EyeTV that when it's done recording, it should convert them to AppleTV format and add them to an iTunes playlist. That playlist is visible on my AppleTV and I can watch the video whenever I want. I also subscribe to a number of wonderful free podcasts (TED, The Random Show, etc.). A whole host of wonderful videos are also available on Youtube and Vimeo, both of which are supported natively in the AppleTV.  Many time I like downloading and retaining YouTube and Vimeo videos.  Vimeo allows you to do that by default, but you have to use Google Chrome and a Chrome plugin called FastestTube to download videos off Youtube. It doesn't always works, but seems to most of the time.
 
