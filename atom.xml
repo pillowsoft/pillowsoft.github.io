@@ -5,7 +5,7 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="pillowsoft.com/atom.xml" rel="self" />
 	<link href="pillowsoft.com" />
-	<updated>Tue, 18 Mar 2014 23:05:18 -0400</updated>
+	<updated>Wed, 19 Mar 2014 10:43:57 -0400</updated>
 	<id>http://www.pillowsoft.com</id>
 	<author>
 		<name>Brad Pillow</name>
@@ -13,6 +13,20 @@
 
 	
 		<entry>
+	
+	
+	<title>Testing new feeds</title>
+	<link href="http://pillowsoft.com/posts/2014/03/testing123.html"/>
+	<id>http://pillowsoft.com/posts/2014/03/testing123.html</id>
+	
+	<category>General</category>
+	
+	<updated>Wed, 19 Mar 2014 00:00:00 -0400</updated>
+    <summary>Just a post to check out my rss feed...
+</summary>
+</entry>
+
+<entry>
 	
 	
 	<title>Amazon S3 Web Hosting</title>
