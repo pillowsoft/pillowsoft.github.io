@@ -3,13 +3,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Pillow's Ponderings</title>
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
-	<link href="pillowsoft.com/feed/" rel="self" />
+	<link href="pillowsoft.com/atom.xml" rel="self" />
 	<link href="pillowsoft.com" />
-	<updated>Tue, 18 Mar 2014 20:59:16 -0400</updated>
+	<updated>Tue, 18 Mar 2014 21:08:03 -0400</updated>
+	<id>http://www.pillowsoft.com</id>
+	<author>
+		<name>Brad Pillow</name>
+	</author>
 
-	<entry>
-		
-			<entry>
+	
+		<entry>
 	
 	
 	<title>Amazon S3 Web Hosting</title>
@@ -149,7 +152,7 @@ The point of these movies is that everything is a remix, or essentially a combin
 </entry>
 
 
-		
-	</entry>
+	
 </feed>
 
+ 
