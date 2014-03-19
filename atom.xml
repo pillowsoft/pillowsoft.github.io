@@ -3,9 +3,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Pillow's Ponderings</title>
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
-	<link href="http://www.pillowsoft.com//feed/" rel="self" />
-	<link href="http://www.pillowsoft.com/" />
-	<updated>Mon, 17 Mar 2014 22:45:25 -0400</updated>
+	<link href="pillowsoft.com/feed/" rel="self" />
+	<link href="pillowsoft.com" />
+	<updated>Tue, 18 Mar 2014 20:35:56 -0400</updated>
 
 	<entry>
 		
@@ -13,8 +13,8 @@
 	
 	
 	<title>Amazon S3 Web Hosting</title>
-	<link>http://www.pillowsoft.com/posts/2012/09/s3-web-hosting.html</link>
-	<id>http://www.pillowsoft.com/posts/2012/09/s3-web-hosting.html</id>
+	<link>http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</link>
+	<id>http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</id>
 	
 	<category>Dev</category>
 	
@@ -75,8 +75,8 @@ Amazon S3 Website Hosting Tutorial
 	
 	
 	<title>Cutting the cord</title>
-	<link>http://www.pillowsoft.com/posts/2012/08/cut-the-cord.html</link>
-	<id>http://www.pillowsoft.com/posts/2012/08/cut-the-cord.html</id>
+	<link>http://pillowsoft.com/posts/2012/08/cut-the-cord.html</link>
+	<id>http://pillowsoft.com/posts/2012/08/cut-the-cord.html</id>
 	
 	<category>General</category>
 	
@@ -113,8 +113,8 @@ There's a first stab at notes on how to cut the cord. More to come...
 	
 	
 	<title>All Ideas Have Ancestors</title>
-	<link>http://www.pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</link>
-	<id>http://www.pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</id>
+	<link>http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</link>
+	<id>http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</id>
 	
 	<category>General</category>
 	
