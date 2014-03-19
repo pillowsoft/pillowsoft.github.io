@@ -5,7 +5,7 @@
 	<subtitle>Pondering the universe and it's wonder.</subtitle>
 	<link href="pillowsoft.com/atom.xml" rel="self" />
 	<link href="pillowsoft.com" />
-	<updated>Tue, 18 Mar 2014 21:08:03 -0400</updated>
+	<updated>Tue, 18 Mar 2014 21:19:59 -0400</updated>
 	<id>http://www.pillowsoft.com</id>
 	<author>
 		<name>Brad Pillow</name>
@@ -16,7 +16,7 @@
 	
 	
 	<title>Amazon S3 Web Hosting</title>
-	<link>http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</link>
+	<link href="http://pillowsoft.com/posts/2012/09/s3-web-hosting.html"/>
 	<id>http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</id>
 	
 	<category>Dev</category>
@@ -78,7 +78,7 @@ Amazon S3 Website Hosting Tutorial
 	
 	
 	<title>Cutting the cord</title>
-	<link>http://pillowsoft.com/posts/2012/08/cut-the-cord.html</link>
+	<link href="http://pillowsoft.com/posts/2012/08/cut-the-cord.html"/>
 	<id>http://pillowsoft.com/posts/2012/08/cut-the-cord.html</id>
 	
 	<category>General</category>
@@ -116,7 +116,7 @@ There's a first stab at notes on how to cut the cord. More to come...
 	
 	
 	<title>All Ideas Have Ancestors</title>
-	<link>http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</link>
+	<link href="http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html"/>
 	<id>http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</id>
 	
 	<category>General</category>
