@@ -1,0 +1,101 @@
+{
+    "gallery": [
+        {
+            "title": "photo2",
+            "template": "post",
+            "date": "2012-09-20T00:00:00.000Z",
+            "type": "post",
+            "tags": [
+                "photo"
+            ],
+            "categories": [
+                "Photography"
+            ],
+            "url": "/gallery/photo1.html",
+            "fromMarkdown": true,
+            "excerpt": "\nSome photo..."
+        },
+        {
+            "title": "photo1",
+            "template": "post",
+            "date": "2012-09-20T00:00:00.000Z",
+            "type": "post",
+            "tags": [
+                "photo"
+            ],
+            "categories": [
+                "Photography"
+            ],
+            "url": "/gallery/photo2.html",
+            "fromMarkdown": true,
+            "excerpt": "\nSome photo..."
+        }
+    ],
+    "posts": [
+        {
+            "title": "All Ideas Have Ancestors",
+            "template": "post",
+            "date": "2012-09-20T00:00:00.000Z",
+            "type": "post",
+            "tags": [
+                "Ideas",
+                "Video"
+            ],
+            "categories": [
+                "General"
+            ],
+            "url": "/posts/all-ideas-have-ancestors.html",
+            "fromMarkdown": true,
+            "excerpt": "Check out these wonderfully done videos on \"Everything Is A Remix\".  They are short, but fascinating to watch and to the point:\n\n\n\n Everything is a Remix Part 1 from Kirby Ferguson on Vimeo.\n\n Everything is a Remix Part 2 from Kirby Ferguson on..."
+        },
+        {
+            "title": "Cutting the cord",
+            "template": "post",
+            "date": "2012-08-17T00:00:00.000Z",
+            "type": "post",
+            "tags": [
+                "LifeHacking",
+                "Leisure",
+                "Web"
+            ],
+            "categories": [
+                "General"
+            ],
+            "url": "/posts/cut-the-cord.html",
+            "fromMarkdown": true,
+            "excerpt": "\n\nWith the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at \"cutting the cord\". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but..."
+        },
+        {
+            "title": "Amazon S3 Web Hosting",
+            "template": "post",
+            "date": "2012-09-20T00:00:00.000Z",
+            "type": "post",
+            "tags": [
+                "Web",
+                "S3"
+            ],
+            "categories": [
+                "Dev"
+            ],
+            "url": "/posts/s3-web-hosting.html",
+            "fromMarkdown": true,
+            "excerpt": "\nRecently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led..."
+        },
+        {
+            "title": "Testing new feeds",
+            "template": "post",
+            "date": "2014-03-19T00:00:00.000Z",
+            "type": "post",
+            "published": true,
+            "tags": [
+                "Web"
+            ],
+            "categories": [
+                "General"
+            ],
+            "url": "/posts/testing123.html",
+            "fromMarkdown": true,
+            "excerpt": "\nJust a post to check out my rss feed..."
+        }
+    ]
+}
