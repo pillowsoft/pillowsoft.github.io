@@ -11,11 +11,11 @@
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/all-ideas-have-ancestors.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/all-ideas-have-ancestors.html</guid>
-      <pubDate>2014-03-26T15:49:42-04:00</pubDate>
+      <pubDate>2014-03-26T15:55:11-04:00</pubDate>
       <description><![CDATA[ 
 <!DOCTYPE html>
 <html lang="en">
-  
+  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -23,7 +23,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <link rel="shortcut icon" href="/user_assets/favicon.ico"/>
-  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
+
 
 
   <title>PillowSoft</title>
@@ -296,11 +296,11 @@ Categories:
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/cut-the-cord.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/cut-the-cord.html</guid>
-      <pubDate>2014-03-26T15:49:42-04:00</pubDate>
+      <pubDate>2014-03-26T15:55:11-04:00</pubDate>
       <description><![CDATA[ 
 <!DOCTYPE html>
 <html lang="en">
-  
+  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -308,7 +308,7 @@ Categories:
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <link rel="shortcut icon" href="/user_assets/favicon.ico"/>
-  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
+
 
 
   <title>PillowSoft</title>
@@ -593,11 +593,11 @@ Categories:
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/s3-web-hosting.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/s3-web-hosting.html</guid>
-      <pubDate>2014-03-26T15:49:42-04:00</pubDate>
+      <pubDate>2014-03-26T15:55:11-04:00</pubDate>
       <description><![CDATA[ 
 <!DOCTYPE html>
 <html lang="en">
-  
+  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -605,7 +605,7 @@ Categories:
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <link rel="shortcut icon" href="/user_assets/favicon.ico"/>
-  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
+
 
 
   <title>PillowSoft</title>
@@ -902,11 +902,11 @@ Categories:
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/testing123.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/testing123.html</guid>
-      <pubDate>2014-03-26T15:49:42-04:00</pubDate>
+      <pubDate>2014-03-26T15:55:11-04:00</pubDate>
       <description><![CDATA[ 
 <!DOCTYPE html>
 <html lang="en">
-  
+  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -914,7 +914,7 @@ Categories:
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <link rel="shortcut icon" href="/user_assets/favicon.ico"/>
-  <link rel="alternate" type="application/rss+xml" title="PillowSoft RSS Feed" href="/feed.xml" />
+
 
 
   <title>PillowSoft</title>
