@@ -11,7 +11,7 @@
             "categories": [
                 "Photography"
             ],
-            "url": "/gallery/photo1.html",
+            "url": "/gallery/2012/09/photo1.html",
             "fromMarkdown": true,
             "excerpt": "\nSome photo..."
         },
@@ -26,7 +26,7 @@
             "categories": [
                 "Photography"
             ],
-            "url": "/gallery/photo2.html",
+            "url": "/gallery/2012/09/photo2.html",
             "fromMarkdown": true,
             "excerpt": "\nSome photo..."
         }
@@ -44,7 +44,7 @@
             "categories": [
                 "General"
             ],
-            "url": "/posts/all-ideas-have-ancestors.html",
+            "url": "/posts/2012/09/all-ideas-have-ancestors.html",
             "fromMarkdown": true,
             "excerpt": "Check out these wonderfully done videos on \"Everything Is A Remix\".  They are short, but fascinating to watch and to the point:\n\n\n\n Everything is a Remix Part 1 from Kirby Ferguson on Vimeo.\n\n Everything is a Remix Part 2 from Kirby Ferguson on..."
         },
@@ -61,7 +61,7 @@
             "categories": [
                 "General"
             ],
-            "url": "/posts/cut-the-cord.html",
+            "url": "/posts/2012/08/cut-the-cord.html",
             "fromMarkdown": true,
             "excerpt": "\n\nWith the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at \"cutting the cord\". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but..."
         },
@@ -77,7 +77,7 @@
             "categories": [
                 "Dev"
             ],
-            "url": "/posts/s3-web-hosting.html",
+            "url": "/posts/2012/09/s3-web-hosting.html",
             "fromMarkdown": true,
             "excerpt": "\nRecently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led..."
         },
@@ -93,7 +93,7 @@
             "categories": [
                 "General"
             ],
-            "url": "/posts/testing123.html",
+            "url": "/posts/2014/03/testing123.html",
             "fromMarkdown": true,
             "excerpt": "\nJust a post to check out my rss feed..."
         }

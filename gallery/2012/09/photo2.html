@@ -93,8 +93,8 @@
       
 
   <div class="row">
-  <link rel="bookmark" href="/posts/s3-web-hosting.html" />
-  <h2 class="h2link">Amazon S3 Web Hosting</h2>
+  <link rel="bookmark" href="/gallery/2012/09/photo2.html" />
+  <h2 class="h2link">photo1</h2>
   
 
 <div class="date">
@@ -102,19 +102,14 @@
 Tags:
 	
 		<span>
-			<a href="/tag/web">Web</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/tag/s3">S3</a>
+			<a href="/tag/photo">photo</a>
 			
 		</span>
 	
 Categories:
 	
 		<span>
-			<a href="/category/dev">Dev</a>
+			<a href="/category/photography">Photography</a>
 			
 		</span>
 	
@@ -122,39 +117,7 @@ Categories:
 
   <br>
   
-<p>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn&#39;t give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.</p>
-<!--more-->
-
-<h3 id="features-of-hosting-on-s3">Features of hosting on S3</h3>
-<ul>
-<li>relatively easy to set up</li>
-<li>relatively low cost (for the traffic and space I am using)</li>
-<li>ability to support multiple different websites</li>
-<li>speedy, it seems very fast</li>
-<li>some ability to control access to various parts of the website</li>
-</ul>
-<h3 id="setup">Setup</h3>
-<p>Set up was quite simple. Look into any one of the blog entries listed below on how to do it. No need for me to really repeat all this. I did get caught up on a couple of things, one simple way to update files on your bucket and to access control lists.</p>
-<p>I am using CyberDuck on the Mac to upload my files. It is quick, free (donation-ware) and seems to work well. I actually use the Amazon S3 console on their website to initialize and create the buckets. You need to make sure your buckets are named after basically what is going to be there, i.e., </p>
-<p>www.mywebsite.com </p>
-<p>I did get tripped up a bit on the access permissions to the website. When I initially uploaded the website, things appeared to be working okay but I would occasionally get a page or an image that did not show up correctly. It turns out that I had not set any access permissions and that while the basic permissions sort of work, they weren&#39;t really the correct thing to do. One actually needs to go into the S3 console on the web and set up the bucket access control lists. Go <a href="http://aws.amazon.com/articles/5050">here</a> for more details. I ended up copying verbatim what was there and replacing the web part of the main part my your actual domain part.</p>
-<pre><code>{
-  &quot;Version&quot;:&quot;2008-10-17&quot;,
-  &quot;Statement&quot;:[{
-    &quot;Sid&quot;:&quot;PublicReadGetObject&quot;,
-      &quot;Effect&quot;:&quot;Allow&quot;,
-      &quot;Principal&quot;: { &quot;AWS&quot;: &quot;*&quot; },
-      &quot;Action&quot;:[&quot;s3:GetObject&quot;],
-      &quot;Resource&quot;:[&quot;arn:aws:s3:::www.mydomainname.com/*&quot;]
-  }]
-}</code></pre>
-<p>Note: the date above is for the version of the access spec, so don&#39;t try like I did to change it to todays date.</p>
-<p>References:</p>
-<p><a href="http://www.labnol.org/internet/web-hosting-with-amazon-s3/18742/">[Tutorial] How to Host Your Website on Amazon S3</a></p>
-<p><a href="http://www.labnol.org/internet/lower-amazon-s3-bill-improve-website-loading-time/5193/">Lower your Amazon S3 Bill and also Improve Website Loading Time</a></p>
-<p><a href="http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html">Host Your Static Website on Amazon S3</a></p>
-<p><a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon: Hosting Websites on Amazon S3</a></p>
-<p><a href="http://blog.teamextension.com/amazon-s3-website-hosting-tutorial-230">Amazon S3 Website Hosting Tutorial</a></p>
+<p>Some photo...</p>
 
 
   </div>
@@ -236,8 +199,8 @@ Categories:
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'pillowsoftllc';
-    var disqus_identifier = '/posts/s3-web-hosting.html';
-    var disqus_url = 'http://www.pillowsoft.com/posts/s3-web-hosting.html';    // site_root_url+. like, http://www.pillowsoft.com
+    var disqus_identifier = '/gallery/2012/09/photo2.html';
+    var disqus_url = 'http://www.pillowsoft.com/gallery/2012/09/photo2.html';    // site_root_url+. like, http://www.pillowsoft.com
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
