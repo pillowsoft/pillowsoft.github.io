@@ -35,9 +35,9 @@
     ],
     "posts": [
         {
-            "title": "Testing new feeds",
+            "title": "Testing new feed...the second time",
             "template": "post",
-            "date": "2014-03-19T00:00:00.000Z",
+            "date": "2014-04-13T00:00:00.000Z",
             "type": "post",
             "published": true,
             "tags": [
@@ -46,10 +46,27 @@
             "categories": [
                 "General"
             ],
-            "url": "/posts/2014/03/testing123.html",
+            "url": "/posts/2014/04/testing1234.html",
             "fromMarkdown": true,
-            "excerpt": "\nJust a post to check out my rss feed...",
-            "allContent": "\nJust a post to check out my rss feed..."
+            "excerpt": "\nJust a NEW post to check out my rss feed...",
+            "allContent": "\nJust a NEW post to check out my rss feed..."
+        },
+        {
+            "title": "Testing new feeds",
+            "template": "post",
+            "date": "2014-04-13T00:00:00.000Z",
+            "type": "post",
+            "published": true,
+            "tags": [
+                "Web"
+            ],
+            "categories": [
+                "General"
+            ],
+            "url": "/posts/2014/04/testing123.html",
+            "fromMarkdown": true,
+            "excerpt": "\nJust a NEW post to check out my rss feed...",
+            "allContent": "\nJust a NEW post to check out my rss feed..."
         },
         {
             "title": "Amazon S3 Web Hosting",
