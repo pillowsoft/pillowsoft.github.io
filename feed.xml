@@ -4,6 +4,8 @@
   <title>Pillow's Ponderings</title>
   <link>http://pillowsoft.com</link>
   <description>Pondering the universe and it's wonder.</description>
+  <pubDate>Sun, 13 Apr 2014 21:20:29 -0400</pubDate>
+  <lastBuildDate>Sun, 13 Apr 2014 21:20:29 -0400</lastBuildDate>
   
     
     <item>
@@ -11,7 +13,7 @@
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/2014/04/testing1234.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/2014/04/testing1234.html</guid>
-      <pubDate>2014-04-13T20:47:24-04:00</pubDate>
+      <pubDate>Sat, 12 Apr 2014 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
 Just a NEW post to check out my rss feed... ]]></description>
     </item>
@@ -22,7 +24,7 @@ Just a NEW post to check out my rss feed... ]]></description>
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/2014/04/testing123.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/2014/04/testing123.html</guid>
-      <pubDate>2014-04-13T20:47:24-04:00</pubDate>
+      <pubDate>Sat, 12 Apr 2014 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
 Just a NEW post to check out my rss feed... ]]></description>
     </item>
@@ -33,7 +35,7 @@ Just a NEW post to check out my rss feed... ]]></description>
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</guid>
-      <pubDate>2014-04-13T20:47:24-04:00</pubDate>
+      <pubDate>Wed, 19 Sep 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
 Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.
 
@@ -96,7 +98,7 @@ References:
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</guid>
-      <pubDate>2014-04-13T20:47:24-04:00</pubDate>
+      <pubDate>Wed, 19 Sep 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
 
 <p/>
@@ -132,7 +134,7 @@ The point of these movies is that everything is a remix, or essentially a combin
       <author>Brad Pillow</author>
       <link>http://pillowsoft.com/posts/2012/08/cut-the-cord.html</link>
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/08/cut-the-cord.html</guid>
-      <pubDate>2014-04-13T20:47:24-04:00</pubDate>
+      <pubDate>Thu, 16 Aug 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
 
 With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.
