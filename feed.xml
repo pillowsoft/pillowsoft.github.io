@@ -4,8 +4,8 @@
   <title>Pillow's Ponderings</title>
   <link>http://pillowsoft.com</link>
   <description>Pondering the universe and it's wonder.</description>
-  <pubDate>Sun, 13 Apr 2014 23:18:37 -0400</pubDate>
-  <lastBuildDate>Sun, 13 Apr 2014 23:18:37 -0400</lastBuildDate>
+  <pubDate>Mon, 14 Apr 2014 00:04:08 -0400</pubDate>
+  <lastBuildDate>Mon, 14 Apr 2014 00:04:08 -0400</lastBuildDate>
   
     
     <item>
@@ -15,34 +15,6 @@
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/09/s3-web-hosting.html</guid>
       <pubDate>Wed, 19 Sep 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
-      <link rel="bookmark" href="/posts/2012/09/s3-web-hosting.html">
-      <h2 class="h2link">Amazon S3 Web Hosting</h2>
-      
-
-<div class="date">
-	Posted: <span>September 19th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/tag/web">Web</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/tag/s3">S3</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/category/dev">Dev</a>
-			
-		</span>
-	
-</div>
-
-      <br>
       
 <p>Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn&#39;t give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.</p>
 <!--more-->
@@ -90,34 +62,6 @@ Categories:
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/09/all-ideas-have-ancestors.html</guid>
       <pubDate>Wed, 19 Sep 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
-      <link rel="bookmark" href="/posts/2012/09/all-ideas-have-ancestors.html">
-      <h2 class="h2link">All Ideas Have Ancestors</h2>
-      
-
-<div class="date">
-	Posted: <span>September 19th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/tag/ideas">Ideas</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/tag/video">Video</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/category/general">General</a>
-			
-		</span>
-	
-</div>
-
-      <br>
       
 <p>Check out these wonderfully done videos on &quot;Everything Is A Remix&quot;.  They are short, but fascinating to watch and to the point:</p>
 <p><br><br><iframe src="http://player.vimeo.com/video/14912890" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> </p><p><a href="http://vimeo.com/14912890">Everything is a Remix Part 1</a> from <a href="http://vimeo.com/kirbyferguson">Kirby Ferguson</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
@@ -141,39 +85,6 @@ Categories:
       <guid isPermaLink="true">http://pillowsoft.com/posts/2012/08/cut-the-cord.html</guid>
       <pubDate>Thu, 16 Aug 2012 20:00:00 -0400</pubDate>
       <description><![CDATA[ 
-      <link rel="bookmark" href="/posts/2012/08/cut-the-cord.html">
-      <h2 class="h2link">Cutting the cord</h2>
-      
-
-<div class="date">
-	Posted: <span>August 16th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/tag/lifehacking">LifeHacking</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/tag/leisure">Leisure</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/tag/web">Web</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/category/general">General</a>
-			
-		</span>
-	
-</div>
-
-      <br>
       
 <p>With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at &quot;cutting the cord&quot;. The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here&#39;s the one I use.</p>
 <h3 id="ingredients">Ingredients</h3>
