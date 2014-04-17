@@ -105,7 +105,7 @@
 																((rc.currentCategory != null && rc.currentCategory != undefined) ? _.filter(rc.posts, function(post){ return post.categories.indexOf(rc.currentCategory) != -1; }) : rc.posts) ;
     %>
     <% _.each( matchingPosts, function(post){ %>
-    	<h3 class="h2link"><a href="<%-post.url%>#disqus_thread"><%-post.title%></a></h3>
+    	<h3 class="h2link"><a href="<%-post.url%>"><%-post.title%></a></h3>
     	<div class="date">
     	<% var dateString = moment(post.date).format('MMMM Do YYYY'); %>
 		Posted: <span><%- dateString %>.</span>
@@ -126,7 +126,7 @@
 		</div>
 		<p class="view">
 			<br/>
-			<%- post.excerpt %><a href="<%- post.url %>#disqus_thread" class="more"> Read the post in full</a>
+			<%- post.excerpt %><a href="<%- post.url %>" class="more"> Read the post in full</a>
 		</p>
     <% }); %>
 
