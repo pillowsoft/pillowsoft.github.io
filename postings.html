@@ -17,7 +17,6 @@
  <!-- Custom styles for this template -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
 
-
   <link href="/assets/stylesheets/site.css" rel="stylesheet" type="text/css" />
 
   <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -93,123 +92,101 @@
       
 
 
+<div class="template_dummy"> </div>
+
+<!-- BEGIN: Underscore Template Definition. -->
+<script type="text/template" class="template">
+	<% var tagOrCategory = (rc.currentTag != null && rc.currentTag != undefined) ? rc.currentTag : ((rc.currentCategory != null && rc.currentCategory != undefined) ? rc.currentCategory : "Recent Posts"); %>
+
+	<h2><%-tagOrCategory%></h2>
+	<%
+		var matchingPosts = (rc.currentTag != null && rc.currentTag != undefined) ? _.filter(rc.posts, function(post){ return post.tags.indexOf(rc.currentTag) != -1; }) :
+																((rc.currentCategory != null && rc.currentCategory != undefined) ? _.filter(rc.posts, function(post){ return post.categories.indexOf(rc.currentCategory) != -1; }) : rc.posts) ;
+    %>
+    <% _.each( matchingPosts, function(post){ %>
+    	<h3 class="h2link"><a href="<%-post.url%>"><%-post.title%></a></h3>
+    	<div class="date">
+    	<% var dateString = moment(post.date).format('MMMM Do YYYY'); %>
+		Posted: <span><%- dateString %>.</span>
+		Tags:
+			<% _.each( post.tags, function( tag, index ){ %>
+				<span>
+					<a href="/summaries.html?tag=<%- tag %>"><%- tag %></a>
+					<% if ( index < (post.tags.length-1) ){ %>, <% } %>
+				</span>
+			<% }); %>
+		Categories:
+			<% _.each( post.categories, function( category, index ){ %>
+				<span>
+					<a href="/summaries.html?category=<%- category %>"><%- category %></a>
+					<% if ( index < (post.categories.length-1) ){ %>, <% } %>
+				</span>
+			<% }); %>
+		</div>
+		<p class="view">
+			<br/>
+			<%- post.excerpt %><a href="<%- post.url %>" class="more"> Read the post in full</a>
+		</p>
+    <% }); %>
 
 
-<h2>Recent posts</h2>
+</script>
+<!-- END: Underscore Template Definition. -->
 
+ <script type="text/javascript">
+ $(function(){
+    //DOM loaded
 
-	
-<h3 class="h2link"><a href="/posts/2012/09/s3-web-hosting.html">Amazon S3 Web Hosting</a></h3>
-<p class="view">
-	
+ 	 $.getJSON( "/json/collections.json", function( data ) {
 
-<div class="date">
-	Posted: <span>September 19th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/summaries.html?tag=Web">Web</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/summaries.html?tag=S3">S3</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/summaries.html?category=Dev">Dev</a>
-			
-		</span>
-	
-</div>
+	    // find what category we shoudl show...if not specified, show all, by category
+	    var url = $.url(); // parse the current page URL
+	    var currentCategory = url.param('category');
+			var currentTag = url.param('tag');
 
-	<br/>
-	
-Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led...<a href="/posts/2012/09/s3-web-hosting.html" class="more"> Read the post in full</a>
-</p>
+			if (currentCategory != null && currentCategory != undefined) {
+				//currentCategory = currentCategory.toLowerCase();
+				console.log("Category: " + currentCategory);
+			}
 
+			if (currentTag != null && currentTag != undefined) {
+				//currentTag = currentTag.toLowerCase();
+				console.log("Tag: " + currentTag);
+			}
 
-	
-<h3 class="h2link"><a href="/posts/2012/09/all-ideas-have-ancestors.html">All Ideas Have Ancestors</a></h3>
-<p class="view">
-	
+	    var posts = data.posts;
 
-<div class="date">
-	Posted: <span>September 19th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/summaries.html?tag=Ideas">Ideas</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/summaries.html?tag=Video">Video</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/summaries.html?category=General">General</a>
-			
-		</span>
-	
-</div>
+			var totalPages = posts.length;
+			//console.log("Total page count: " + totalPages);
 
-	<br/>
-	Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:
+	    // When rending an underscore template, we want top-level
+	    // variables to be referenced as part of an object. For
+	    // technical reasons (scope-chain search), this speeds up
+	    // rendering; however, more importantly, this also allows our
+	    // templates to look / feel more like our server-side
+	    // templates that use the rc (Request Context / Colletion) in
+	    // order to render their markup.
+	    _.templateSettings.variable = "rc";
 
+			var passedData = {
+				posts: data.posts,
+				currentTag: currentTag,
+				currentCategory : currentCategory
+			}
 
+	    // Grab the HTML out of our template tag and pre-compile it.
+	    var template = _.template(
+	        $( "script.template" ).html()
+	    );
 
- Everything is a Remix Part 1 from Kirby Ferguson on Vimeo.
-
- Everything is a Remix Part 2 from Kirby Ferguson on...<a href="/posts/2012/09/all-ideas-have-ancestors.html" class="more"> Read the post in full</a>
-</p>
-
-
-	
-<h3 class="h2link"><a href="/posts/2012/08/cut-the-cord.html">Cutting the cord</a></h3>
-<p class="view">
-	
-
-<div class="date">
-	Posted: <span>August 16th 2012.</span>
-Tags:
-	
-		<span>
-			<a href="/summaries.html?tag=LifeHacking">LifeHacking</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/summaries.html?tag=Leisure">Leisure</a>
-			, 
-		</span>
-	
-		<span>
-			<a href="/summaries.html?tag=Web">Web</a>
-			
-		</span>
-	
-Categories:
-	
-		<span>
-			<a href="/summaries.html?category=General">General</a>
-			
-		</span>
-	
-</div>
-
-	<br/>
-	
-
-With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but...<a href="/posts/2012/08/cut-the-cord.html" class="more"> Read the post in full</a>
-</p>
-
+	    // Render the underscore template and inject it after the H1
+	    // in our current DOM.
+	    $( "div.template_dummy" ).after(
+	        template( passedData )
+	    );
+	});
+});
+</script>
 
 
 
@@ -244,5 +221,10 @@ With the ever increasing speeds of cable internet and the ever increasing price 
         }());
     </script>
     
+    <script type="text/javascript">
+      $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+      }).attr('target', '_blank');
+    </script>
   </body>
 </html>
