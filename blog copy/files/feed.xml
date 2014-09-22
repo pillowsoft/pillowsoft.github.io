@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>My RSS Feed</title><link>http://www.pillowsoft.com/index.html</link><description>Latest News...</description><dc:language>en</dc:language><dc:creator>PillowSoft LLC</dc:creator><dc:rights>Copyright 2012&#x2c; PillowSoft LLC</dc:rights><dc:date>2014-09-21T01:50:42-04:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Sat, 20 Sep 2014 20:20:55 -0400</lastBuildDate><item><title>Cutting The Cord</title><dc:creator>PillowSoft LLC</dc:creator><category>General</category><dc:date>2012-08-16T23:46:35-04:00</dc:date><link>http://www.pillowsoft.com/blog/files/88affdebcafb975045a2c319e1110fc4-2.html#unique-entry-id-2</link><guid isPermaLink="true">http://www.pillowsoft.com/blog/files/88affdebcafb975045a2c319e1110fc4-2.html#unique-entry-id-2</guid><content:encoded><![CDATA[With the ever increasing speeds of cable internet and the ever increasing price of cable TV, many are looking at "cutting the cord". The idea is to ditch your cable TV service and get your video via the internet. There are many ways to do it, but here's the one I use.]]></content:encoded></item><item><title>All Ideas Have Ancestors</title><dc:creator>PillowSoft LLC</dc:creator><category>General</category><dc:date>2012-09-19T23:46:04-04:00</dc:date><link>http://www.pillowsoft.com/blog/files/d5a79b4e1e72d7a938a130e26c60582b-1.html#unique-entry-id-1</link><guid isPermaLink="true">http://www.pillowsoft.com/blog/files/d5a79b4e1e72d7a938a130e26c60582b-1.html#unique-entry-id-1</guid><content:encoded><![CDATA[<span style="font-size:14px; ">Check out these wonderfully done videos on "Everything Is A Remix".  They are short, but fascinating to watch and to the point:<br /></span>]]></content:encoded></item><item><title>Amazon S3 Web Hosting</title><dc:creator>PillowSoft LLC</dc:creator><category>Dev</category><dc:date>2012-09-09T20:22:23-04:00</dc:date><link>http://www.pillowsoft.com/blog/files/4230ac25506b5dc9e928273003922d43-0.html#unique-entry-id-0</link><guid isPermaLink="true">http://www.pillowsoft.com/blog/files/4230ac25506b5dc9e928273003922d43-0.html#unique-entry-id-0</guid><content:encoded><![CDATA[Recently I decided to move my website and blog to a static website setup. I had originally investigated using GitHub pages with Jekyll. While that seemed to work pretty well, it didn't give me all the flexibility I wanted. A bit more searching led to Amazon S3 as a good alternative.]]></content:encoded></item></channel>
+</rss>
