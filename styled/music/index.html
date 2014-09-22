@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
-		<title>About</title>
+		<title>Music</title>
 		<!-- This sets the browser viewport (mobile scaling) to 1:1. Comment-out the following meta tag if not required -->
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.5, user-scalable=yes" />
 		<!--[if lt IE 9]><script src="http://www.pillowsoft.com/rw_common/themes/solstice/core/html5.js" type="text/javascript"></script><![endif]-->
@@ -43,7 +43,174 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="http://www.pillowsoft.com/rw_common/themes/solstice/css/misc/uppercase-nav.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="http://www.pillowsoft.com/rw_common/themes/solstice/css/misc/titlebar-semi-transparent.css" />
 		
-		
+		<style type="text/css" media="all">h1 {
+    color: #444;
+    font-size: 1.2em;
+    padding: 14px 2px 12px;
+    margin: 0px;
+}
+
+h1 em {
+    font-style: normal;
+    color: #999;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 40px auto;
+}
+
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: decimal-leading-zero inside;
+    color: #ccc;
+    width: 460px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+ol li {
+    position: relative;
+    margin: 0px;
+    padding: 9px 2px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+ol li a {
+    display: block;
+    text-indent: -3.3ex;
+    padding: 0px 0px 0px 20px;
+}
+
+li.playing {
+    color: #aaa;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+li.playing a {
+    color: #000;
+}
+
+li.playing:before {
+    content: "\F001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin: 0px;
+    position: absolute;
+    left: -24px;
+    top: 9px;
+    color: #000;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+#shortcuts {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #666;
+    font-size: 0.9em;
+    margin: 60px 0px 0px;
+    padding: 20px 20px 15px;
+    background: #f3f3f3;
+    background: rgba(240, 240, 240, 0.7);
+}
+
+#shortcuts div {
+    width: 460px;
+    margin: 0px auto;
+}
+
+#shortcuts h1 {
+    margin: 0px 0px 6px;
+}
+
+#shortcuts p {
+    margin: 0px 0px 18px;
+}
+
+#shortcuts em {
+    font-style: normal;
+    background: #d3d3d3;
+    padding: 3px 9px;
+    position: relative;
+    left: -3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-device-width: 480px) {
+    #wrapper {
+        position: relative;
+        left: -3%;
+    }
+
+    #shortcuts {
+        display: none;
+    }
+}
+
+ul.slats li {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  list-style-type: none;
+
+  &:last-child {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #ffffff;
+  }
+}
+
+.small-hanging-image {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  border: 1px solid #eee;
+}
+
+ul.slats li {
+  img {
+    background: #eee;
+  }
+  p {
+    margin: 0 0 0 76px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    span.meta {
+      display: block;
+      font-size: 12px;
+      color: #999;
+    }
+  }
+}</style>
 		<noscript>
 		<style type="text/css">#contentWrapper #fs, #sidebar #fs, #contentWrapper div[id*='myExtraContent'], #sidebar div[id*='myExtraContent'] {display: block;}</style>
 		</noscript>
@@ -51,13 +218,15 @@
 		<!--[if lte IE 9]><style type="text/css">#pageWrapper{opacity: 1.00;}</style><![endif]-->
 		<link rel="stylesheet" type="text/css" media="print" href="http://www.pillowsoft.com/rw_common/themes/solstice/print.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="http://www.pillowsoft.com/rw_common/themes/solstice/custom.css" />
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="/resources/audiojs/audio.min.js"></script>
 				<link rel='stylesheet' type='text/css' media='all' href='http://www.pillowsoft.com/rw_common/plugins/stacks/stacks.css' />
 		<!--[if lte IE 7]>
 			<link rel='stylesheet' type='text/css' media='all' href='http://www.pillowsoft.com/rw_common/plugins/stacks/stacks_ie.css' />
 		<![endif]-->
-		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page2.css' />
-		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page2.js'></script>
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page4.css' />
+		<script type='text/javascript' charset='utf-8' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page4.js'></script>
+<meta class="stack version" id="com.joeworkman.stacks.foundation.divider" name="Divider" content="1.2.1">
 
 	</head>
 	<body id="body">
@@ -91,7 +260,7 @@
 								<div id="extraContainer3"></div>
 							</div><!--/headerContent-->
 							<div id="navContent">
-								<nav id="mainNav" class="mainNav nav" role="navigation"><ul class="toolbarList"><li class="normalListItem"><a href="../index.html" class="normal">Home</a></li><li class="normalListItem"><a href="../styled/index.html" class="normal">Projects</a><ul class="toolbarList"><li class="normalListItem"><a href="../styled/music/index.html" class="normal">Music</a></li></ul></li><li class="currentListItem"><a href="page2.html" class="current">About</a></li><li class="normalListItem"><a href="../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../page7/index.html" class="normal">Site Map</a></li></ul></nav>
+								<nav id="mainNav" class="mainNav nav" role="navigation"><ul class="toolbarList"><li class="normalListItem"><a href="../../index.html" class="normal">Home</a></li><li class="currentAncestorListItem"><a href="../../styled/index.html" class="currentAncestor">Projects</a><ul class="toolbarList"><li class="currentListItem"><a href="index.html" class="current">Music</a></li></ul></li><li class="normalListItem"><a href="../../about/page2.html" class="normal">About</a></li><li class="normalListItem"><a href="../../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../../page7/index.html" class="normal">Site Map</a></li></ul></nav>
 								<div id="megamenu"></div>
 								<div id="extraContainer2"></div>
 							</div><!--/navContent-->
@@ -124,7 +293,7 @@
 								<span class="raftNavIconClose"><i class="fa fa-minus"></i></span>
 							</div><!--/raftNavArrow-->
 						</div><!--/raftNavTitle-->
-						<div class="raftNav"><ul class="toolbarList"><li class="normalListItem"><a href="../index.html" class="normal">Home</a></li><li class="normalListItem"><a href="../styled/index.html" class="normal">Projects</a><ul class="toolbarList"><li class="normalListItem"><a href="../styled/music/index.html" class="normal">Music</a></li></ul></li><li class="currentListItem"><a href="page2.html" class="current">About</a></li><li class="normalListItem"><a href="../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../page7/index.html" class="normal">Site Map</a></li></ul></div>
+						<div class="raftNav"><ul class="toolbarList"><li class="normalListItem"><a href="../../index.html" class="normal">Home</a></li><li class="currentAncestorListItem"><a href="../../styled/index.html" class="currentAncestor">Projects</a><ul class="toolbarList"><li class="currentListItem"><a href="index.html" class="current">Music</a></li></ul></li><li class="normalListItem"><a href="../../about/page2.html" class="normal">About</a></li><li class="normalListItem"><a href="../../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../../page7/index.html" class="normal">Site Map</a></li></ul></div>
 					</div><!--/raftNavWrapper-->
 					<section id="upperHorizontalBar">
 						<div id="upperHorizontalBarContainer" class="SolsticeWidth">
@@ -139,64 +308,100 @@
 								<div id="contentWrapper">
 									
 
-<!-- Stacks v1151 --><div id='stacks_out_0_page2' class='stacks_top'><div id='stacks_in_0_page2' class=''><div id='stacks_out_15_page2' class='stacks_out'><div id='stacks_in_15_page2' class='stacks_in stack_stack'><div id='stacks_out_17_page2' class='stacks_out'><div id='stacks_in_17_page2' class='stacks_in text_stack'><p>I&rsquo;m <a href="http://www.linkedin.com/pub/brad-pillow/0/7a/810">Brad Pillow</a> founder and president of PillowSoft LLC. I started PillowSoft to create a firm for innovative software development.</p>
-</div></div><div id='stacks_out_33266_page2' class='stacks_out'><div id='stacks_in_33266_page2' class='stacks_in com_yabdab_stacks_bootSnap3Column2_stack'>
+<!-- Stacks v1151 --><div id='stacks_out_33249_page4' class='stacks_top'><div id='stacks_in_33249_page4' class=''><div id='stacks_out_33250_page4' class='stacks_out'><div id='stacks_in_33250_page4' class='stacks_in com_yabdab_stacks_bootSnap3Column2_stack'>
 <!-- BootSnap3 | 2 Column v.3.0.0 | http://yabdab.com/bootsnap/ | MODIFIED: 2014-04-28 06:13:32 -->
 <div class="row">
 <div class='col-md-6'>
-<div id='stacks_out_11_page2' class='stacks_out'><div id='stacks_in_11_page2' class='stacks_in text_stack'><h3>History</h3>
-
-<ul>
-<li>Currently President of <a href="http://www.pillowsoft.com">PillowSoft LLC</a></li>
-<li>Senior Computer Scientist, Adobe Systems 2001 - 2010</li>
-<li>Co-Founder of Finale Dessert Cafe Inc., April 1993 &ndash; August 1998</li>
-<li>Founder of PillowSoft LLC, 1996 - Current</li>
-<li>Co-Founder and Computer Scientist at <a href="http://en.wikipedia.org/wiki/Truevision_TGA">Truevision Inc</a>, 1987 - 1996</li>
-<li>Computer Scientist at <a href="http://en.wikipedia.org/wiki/Truevision_TGA">AT&amp;T EpiCenter</a>, 1984 - 1987</li>
-<li>Computer Scientist at Bell Laboratories, 1981 - 1984</li>
-</ul>
-
-<h3>Projects</h3>
-
-<ul>
-<li>Various QuickTime hardware drivers, codecs, components</li>
-<li>OpenGL for video playback acceleration and effects</li>
-<li>Video device control software for capture, playback, deck control</li>
-<li>Video tools and plugins for 3D Fx Hardware at Pinnacle Systems</li>
-<li>Creator of the <a href="http://en.wikipedia.org/wiki/Truevision_TGA">TGA image file format</a></li>
-<li>DV Codec development for Adaptec Inc.</li>
-<li>Motion JPEG Video Capture/Playback for Iomega (Iomega Buzz)</li>
-<li>Development of DV tools for QuickTime for ProMax Inc</li>
-<li>Genetic Programming Add-In's for Excel</li>
-<li>Photoshop Plugin Development</li>
-<li>Illustrator Plugin Development</li>
-<li><a href="http://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo Tree Search</a> Applications</li>
-<li>Low-level hardware drivers for video codecs</li>
-<li>Technical editor for various books for MacMillan publishing</li>
-<li>Networked .NET based backup and logging facility for corporate security system</li>
-</ul>
+<div id='stacks_out_74_page4' class='stacks_out'><div id='stacks_in_74_page4' class='stacks_in html_stack'>      <h2>Christmas<em>(2012) Brad Pillow</em></h2>
+      <div id="audiojs_wrapper0" classname="audiojs" class="audiojs">
+        <audio preload="" ></audio>
+        <div class="play-pause">
+          <p class="play"></p>
+          <p class="pause"></p>
+          <p class="loading"></p>
+          <p class="error"></p>
+        </div>
+        <div class="scrubber">
+          <div style="width: 22.446814341266442px;" class="progress"></div>
+          <div style="width: 280.0000013388517px;" class="loaded"></div>
+        </div>
+        <div class="time"><em class="played">00:19</em>/<strong class="duration">04:07</strong></div>
+        <div class="error-message"></div>
+      </div>
+      <ol>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/AlmostLikeBeingInLove.mp3">Almost Like Being In Love</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/CantTakeMyEyesOffOfYou.mp3">Can't Take My Eyes Off Of You</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Fever.mp3">Fever</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/HaventMetYouYet.mp3">Haven't Met You Yet</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Moondance.mp3">Moondance</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Sway.mp3">Sway</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/TheWayYouLookTonight.mp3">The Way You Look Tonight</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/HaveYourselfAMerryLittleChristmas.mp3">Have Yourself A Merry Little Christmas</a></li>
+      </ol>
 </div></div>
 </div>
 <div class='col-md-6'>
-<div id='stacks_out_13_page2' class='stacks_out'><div id='stacks_in_13_page2' class='stacks_in text_stack'><h3>Skill Set</h3>
+<div id='stacks_out_33261_page4' class='stacks_out'><div id='stacks_in_33261_page4' class='stacks_in com_yabdab_stacks_bootSnap3Image_stack'>
+<!-- BootSnap3 | Image v.3.0.1 | http://yabdab.com/bootsnap/ | MODIFIED: 2014-05-14 09:39:45 -->
+<img src="files/image_33261.jpg" class="img-responsive img-rounded " title="AlbumCover" alt="AlbumCover" />
 
-<ul>
-<li>Mobile Application Development</li>
-<li>Desktop Application Development</li>
-<li>Graphics Algorithms</li>
-<li>Image/Video/Audio Processing Techniques</li>
-<li>Embedded firmware development</li>
-<li>Device driver development</li>
-<li>Hardware and software architecture</li>
-<li>Research in Genetic Programming, Machine Learning and Monte Carlo Tree Search</li>
-<li>Expert in C, C++, C#, Java</li>
-<li>Have done development in Objective-C, Ruby, Javascript, F#, OCaml, Gambit-Scheme, Lisp, APL</li>
-</ul>
-</div></div>
+</div></div><div id='stacks_out_33262_page4' class='stacks_out'><div id='stacks_in_33262_page4' class='stacks_in com_joeworkman_stacks_foundation_divider_stack'>
+
+<hr/>
+
+</div></div><div id='stacks_out_33253_page4' class='stacks_out'><div id='stacks_in_33253_page4' class='stacks_in com_yabdab_stacks_bootSnap3Media_stack'>
+<!-- BootSnap3 | Media v. | http://yabdab.com/bootsnap/ | MODIFIED: 2014-05-20 06:21:01 -->
+<div class="media">
+  <span class="pull-left">
+    <img src="files/image_33253.jpg" class="media-object img-responsive " title="" alt="" />
+  </span>
+  <div class="media-body">
+    <h4 class="media-heading">Heather Ramsey-Clark</h4>
+    <span style="font:14px HelveticaNeue; color:#434343;">My awesome vocal coach! Check her out at the</span><span style="font:14px HelveticaNeue; color:#757575;"><a href="http://www.midwestschoolofvoice.com//"> Midwest School of Music.</a></span>
+  </div>
+</div>
+</div></div><div id='stacks_out_33255_page4' class='stacks_out'><div id='stacks_in_33255_page4' class='stacks_in com_yabdab_stacks_bootSnap3Media_stack'>
+<!-- BootSnap3 | Media v. | http://yabdab.com/bootsnap/ | MODIFIED: 2014-05-20 06:21:01 -->
+<div class="media">
+  <span class="pull-left">
+    <img src="files/image_33255.jpg" class="media-object img-responsive " title="" alt="" />
+  </span>
+  <div class="media-body">
+    <h4 class="media-heading">Peter Kienle</h4>
+    <span style="font:14px HelveticaNeue; color:#434343;">The master of musical tracks you hear here, check him out</span><span style="font:14px HelveticaNeue; color:#757575;"><a href="http://www.acmerecords.com/peterkienle.php"> his website.</a></span>
+  </div>
+</div>
+</div></div><div id='stacks_out_33257_page4' class='stacks_out'><div id='stacks_in_33257_page4' class='stacks_in com_yabdab_stacks_bootSnap3Media_stack'>
+<!-- BootSnap3 | Media v. | http://yabdab.com/bootsnap/ | MODIFIED: 2014-05-20 06:21:01 -->
+<div class="media">
+  <span class="pull-left">
+    <img src="files/image_33257.jpg" class="media-object img-responsive " title="" alt="" />
+  </span>
+  <div class="media-body">
+    <h4 class="media-heading">Chris Lieber</h4>
+    <span style="font:14px HelveticaNeue; color:#434343;">Fantastic studio producer, where this was all recorded. Check him out at</span><span style="font:14px HelveticaNeue; color:#757575;"><a href="http://www.ripplefx.com/"> Ripple FX Studios.</a></span>
+  </div>
+</div>
+</div></div><div id='stacks_out_33259_page4' class='stacks_out'><div id='stacks_in_33259_page4' class='stacks_in com_yabdab_stacks_bootSnap3Media_stack'>
+<!-- BootSnap3 | Media v. | http://yabdab.com/bootsnap/ | MODIFIED: 2014-05-20 06:21:01 -->
+<div class="media">
+  <span class="pull-left">
+    <img src="files/image_33259.jpg" class="media-object img-responsive " title="" alt="" />
+  </span>
+  <div class="media-body">
+    <h4 class="media-heading">Valerie Pillow</h4>
+    <span style="font:14px HelveticaNeue; color:#434343;">My wonderful sister, artist extraordinaire and the creator of the wonderful ornaments artwork! Check her out at</span><span style="font:14px HelveticaNeue; color:#757575;"><a href="http://www.valeriepillow.com/"> her website.</a></span>
+  </div>
+</div>
+</div></div><div id='stacks_out_33263_page4' class='stacks_out'><div id='stacks_in_33263_page4' class='stacks_in com_joeworkman_stacks_foundation_divider_stack'>
+
+<hr/>
+
+</div></div><div id='stacks_out_33264_page4' class='stacks_out'><div id='stacks_in_33264_page4' class='stacks_in text_stack'><span style="font:14px HelveticaNeue; color:#434343;">If you can't hear the songs or want to download them to save to your media player, click here:</span><span style="font:14px HelveticaNeue; color:#757575;"><a href="https://www.dropbox.com/s/2hu6vfysmznhn32/HolidaySongs.zip"> download songs</a></span><span style="font:14px HelveticaNeue; color:#434343;">.</span></div></div>
 </div>
 </div><!--.row-->
 
-</div></div></div></div></div></div>
+</div></div></div></div>
 
 
 
@@ -208,7 +413,7 @@
 								</div><!--/contentWrapper-->
 							</div><!--/content-->
 							<aside id="aside" role="complementary">
-								<div id="blockNav"><ul class="toolbarList"><li class="normalListItem"><a href="../index.html" class="normal">Home</a></li><li class="normalListItem"><a href="../styled/index.html" class="normal">Projects</a><ul class="toolbarList"><li class="normalListItem"><a href="../styled/music/index.html" class="normal">Music</a></li></ul></li><li class="currentListItem"><a href="page2.html" class="current">About</a></li><li class="normalListItem"><a href="../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../page7/index.html" class="normal">Site Map</a></li></ul></div>
+								<div id="blockNav"><ul class="toolbarList"><li class="normalListItem"><a href="../../index.html" class="normal">Home</a></li><li class="currentAncestorListItem"><a href="../../styled/index.html" class="currentAncestor">Projects</a><ul class="toolbarList"><li class="currentListItem"><a href="index.html" class="current">Music</a></li></ul></li><li class="normalListItem"><a href="../../about/page2.html" class="normal">About</a></li><li class="normalListItem"><a href="../../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../../page7/index.html" class="normal">Site Map</a></li></ul></div>
 								<div class="SolsticeClearer"></div>
 								<div id="sidebarWrapper">
 									<div id="sidebarTitle"><h3></h3></div>
@@ -244,7 +449,7 @@
 				<footer id="footer" role="contentinfo">
 					<div class="SolsticeWidth">
 						<div id="footerContent" class="SolsticePadding">
-							<div id="footerNav"><ul class="toolbarList"><li class="normalListItem"><a href="../index.html" class="normal">Home</a></li><li class="normalListItem"><a href="../styled/index.html" class="normal">Projects</a><ul class="toolbarList"><li class="normalListItem"><a href="../styled/music/index.html" class="normal">Music</a></li></ul></li><li class="currentListItem"><a href="page2.html" class="current">About</a></li><li class="normalListItem"><a href="../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../page7/index.html" class="normal">Site Map</a></li></ul></div>
+							<div id="footerNav"><ul class="toolbarList"><li class="normalListItem"><a href="../../index.html" class="normal">Home</a></li><li class="currentAncestorListItem"><a href="../../styled/index.html" class="currentAncestor">Projects</a><ul class="toolbarList"><li class="currentListItem"><a href="index.html" class="current">Music</a></li></ul></li><li class="normalListItem"><a href="../../about/page2.html" class="normal">About</a></li><li class="normalListItem"><a href="../../blog/index.html" class="normal">Blog</a></li><li class="normalListItem"><a href="../../page7/index.html" class="normal">Site Map</a></li></ul></div>
 							<div id="leftFooter">
 								<div id="lastUpdated">Page last updated: 9/21/14<br/></div>
 								<div id="footerText">&copy; 2014 Pillowoft LLC <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":bp";var _rwObsfuscatedHref3 = "ill";var _rwObsfuscatedHref4 = "ow@";var _rwObsfuscatedHref5 = "pil";var _rwObsfuscatedHref6 = "low";var _rwObsfuscatedHref7 = "sof";var _rwObsfuscatedHref8 = "t.c";var _rwObsfuscatedHref9 = "om";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8+_rwObsfuscatedHref9; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></div>
@@ -279,6 +484,51 @@
 		<!--<![endif]-->
 		<script type="text/javascript" src="http://www.pillowsoft.com/rw_common/themes/solstice/custom.js"></script>
 		<script type="text/javascript" src="http://www.pillowsoft.com/rw_common/themes/solstice/scripts/scripts.min.js"></script>
-		
+		<script type="text/javascript">
+			 jQuery(function() {
+    // Setup the player to autoplay the next track
+    var a = audiojs.createAll({
+        trackEnded: function() {
+            var next = $('ol li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.addClass('playing').siblings().removeClass('playing');
+            audio.load($('a', next).attr('data-src'));
+            audio.play();
+        }
+    });
+
+    // Load in the first track
+    var audio = a[0];
+    first = $('ol a').attr('data-src');
+    $('ol li').first().addClass('playing');
+    audio.load(first);
+
+    // Load in a track on click
+    $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+    });
+    // Keyboard shortcuts
+    $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        // right arrow
+        if (unicode == 39) {
+            var next = $('li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.click();
+            // back arrow
+        } else if (unicode == 37) {
+            var prev = $('li.playing').prev();
+            if (!prev.length) prev = $('ol li').last();
+            prev.click();
+            // spacebar
+        } else if (unicode == 32) {
+            audio.playPause();
+        }
+    })
+}); 
+		</script>
 	</body>
 </html>
