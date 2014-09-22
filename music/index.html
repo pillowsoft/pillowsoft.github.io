@@ -34,7 +34,6 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/769-relative-titlebar.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/769-bannercontent.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/569.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="%pathto(css/raft/569-relative-titlebar.css)%" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/569-bannercontent.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/responsive-images.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/raft/responsive-video.css" />
@@ -44,7 +43,174 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/misc/uppercase-nav.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/css/misc/titlebar-semi-transparent.css" />
 		
-		
+		<style type="text/css" media="all">h1 {
+    color: #444;
+    font-size: 1.2em;
+    padding: 14px 2px 12px;
+    margin: 0px;
+}
+
+h1 em {
+    font-style: normal;
+    color: #999;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 40px auto;
+}
+
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: decimal-leading-zero inside;
+    color: #ccc;
+    width: 460px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+ol li {
+    position: relative;
+    margin: 0px;
+    padding: 9px 2px 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+ol li a {
+    display: block;
+    text-indent: -3.3ex;
+    padding: 0px 0px 0px 20px;
+}
+
+li.playing {
+    color: #aaa;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+li.playing a {
+    color: #000;
+}
+
+li.playing:before {
+    content: "\F001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    line-height: 14px;
+    margin: 0px;
+    position: absolute;
+    left: -24px;
+    top: 9px;
+    color: #000;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+#shortcuts {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #666;
+    font-size: 0.9em;
+    margin: 60px 0px 0px;
+    padding: 20px 20px 15px;
+    background: #f3f3f3;
+    background: rgba(240, 240, 240, 0.7);
+}
+
+#shortcuts div {
+    width: 460px;
+    margin: 0px auto;
+}
+
+#shortcuts h1 {
+    margin: 0px 0px 6px;
+}
+
+#shortcuts p {
+    margin: 0px 0px 18px;
+}
+
+#shortcuts em {
+    font-style: normal;
+    background: #d3d3d3;
+    padding: 3px 9px;
+    position: relative;
+    left: -3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-device-width: 480px) {
+    #wrapper {
+        position: relative;
+        left: -3%;
+    }
+
+    #shortcuts {
+        display: none;
+    }
+}
+
+ul.slats li {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  list-style-type: none;
+
+  &:last-child {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #ffffff;
+  }
+}
+
+.small-hanging-image {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  border: 1px solid #eee;
+}
+
+ul.slats li {
+  img {
+    background: #eee;
+  }
+  p {
+    margin: 0 0 0 76px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    span.meta {
+      display: block;
+      font-size: 12px;
+      color: #999;
+    }
+  }
+}</style>
 		<noscript>
 		<style type="text/css">#contentWrapper #fs, #sidebar #fs, #contentWrapper div[id*='myExtraContent'], #sidebar div[id*='myExtraContent'] {display: block;}</style>
 		</noscript>
@@ -52,7 +218,7 @@
 		<!--[if lte IE 9]><style type="text/css">#pageWrapper{opacity: 1.00;}</style><![endif]-->
 		<link rel="stylesheet" type="text/css" media="print" href="../rw_common/themes/solstice/print.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/solstice/custom.css" />
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="/resources/audiojs/audio.min.js"></script>
 				<link rel='stylesheet' type='text/css' media='all' href='../rw_common/plugins/stacks/stacks.css' />
 		<!--[if lte IE 7]>
 			<link rel='stylesheet' type='text/css' media='all' href='../rw_common/plugins/stacks/stacks_ie.css' />
@@ -146,7 +312,33 @@
 <!-- BootSnap3 | 2 Column v.3.0.0 | http://yabdab.com/bootsnap/ | MODIFIED: 2014-04-28 06:13:32 -->
 <div class="row">
 <div class='col-md-6'>
-<div class='slice empty out'><div class='slice empty in'></div></div>
+<div id='stacks_out_74_page4' class='stacks_out'><div id='stacks_in_74_page4' class='stacks_in html_stack'>      <h2>Christmas<em>(2012) Brad Pillow</em></h2>
+      <div id="audiojs_wrapper0" classname="audiojs" class="audiojs">
+        <audio preload="" ></audio>
+        <div class="play-pause">
+          <p class="play"></p>
+          <p class="pause"></p>
+          <p class="loading"></p>
+          <p class="error"></p>
+        </div>
+        <div class="scrubber">
+          <div style="width: 22.446814341266442px;" class="progress"></div>
+          <div style="width: 280.0000013388517px;" class="loaded"></div>
+        </div>
+        <div class="time"><em class="played">00:19</em>/<strong class="duration">04:07</strong></div>
+        <div class="error-message"></div>
+      </div>
+      <ol>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/AlmostLikeBeingInLove.mp3">Almost Like Being In Love</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/CantTakeMyEyesOffOfYou.mp3">Can't Take My Eyes Off Of You</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Fever.mp3">Fever</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/HaventMetYouYet.mp3">Haven't Met You Yet</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Moondance.mp3">Moondance</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/Sway.mp3">Sway</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/TheWayYouLookTonight.mp3">The Way You Look Tonight</a></li>
+        <li><a href="#" data-src="http://dl.dropbox.com/u/1372352/Holiday%20Songs/HaveYourselfAMerryLittleChristmas.mp3">Have Yourself A Merry Little Christmas</a></li>
+      </ol>
+</div></div>
 </div>
 <div class='col-md-6'>
 <div id='stacks_out_33261_page4' class='stacks_out'><div id='stacks_in_33261_page4' class='stacks_in com_yabdab_stacks_bootSnap3Image_stack'>
@@ -292,6 +484,51 @@
 		<!--<![endif]-->
 		<script type="text/javascript" src="../rw_common/themes/solstice/custom.js"></script>
 		<script type="text/javascript" src="../rw_common/themes/solstice/scripts/scripts.min.js"></script>
-		
+		<script type="text/javascript">
+			 jQuery(function() {
+    // Setup the player to autoplay the next track
+    var a = audiojs.createAll({
+        trackEnded: function() {
+            var next = $('ol li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.addClass('playing').siblings().removeClass('playing');
+            audio.load($('a', next).attr('data-src'));
+            audio.play();
+        }
+    });
+
+    // Load in the first track
+    var audio = a[0];
+    first = $('ol a').attr('data-src');
+    $('ol li').first().addClass('playing');
+    audio.load(first);
+
+    // Load in a track on click
+    $('ol li').click(function(e) {
+        e.preventDefault();
+        $(this).addClass('playing').siblings().removeClass('playing');
+        audio.load($('a', this).attr('data-src'));
+        audio.play();
+    });
+    // Keyboard shortcuts
+    $(document).keydown(function(e) {
+        var unicode = e.charCode ? e.charCode : e.keyCode;
+        // right arrow
+        if (unicode == 39) {
+            var next = $('li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.click();
+            // back arrow
+        } else if (unicode == 37) {
+            var prev = $('li.playing').prev();
+            if (!prev.length) prev = $('ol li').last();
+            prev.click();
+            // spacebar
+        } else if (unicode == 32) {
+            audio.playPause();
+        }
+    })
+}); 
+		</script>
 	</body>
 </html>
