@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		
-		<title>Blog</title>
+		<title>More F#, Xamarin.Forms and MVVM | Dev | PillowSoft LLC</title>
 		<!-- This sets the browser viewport (mobile scaling) to 1:1. Comment-out the following meta tag if not required -->
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.5, user-scalable=yes" />
 		<!--[if lt IE 9]><script src="http://www.pillowsoft.com/rw_common/themes/solstice/core/html5.js" type="text/javascript"></script><![endif]-->
@@ -133,15 +133,10 @@
 						<div class="SolsticePadding">
 							<div id="content" role="main">
 								<div id="contentWrapper">
-										 
-	
-	<div class="blog-archive-headings-wrapper">
-		<div class="blog-archive-month">Functional Programming</div>
-		<div class="blog-archive-link"><a href="../index.html">Blog</a></div>
-	</div>
+										
 	
 	<div class="blog-archive-entries-wrapper">
-		<div id="unique-entry-id-9" class="blog-entry"><h1 class="blog-entry-title"><a href="more-fsharp-xamforms-mvvm.html" class="blog-permalink">More F#, Xamarin.Forms and MVVM</a></h1><div class="blog-entry-date">14/10/14 10:25 Filed in: <span class="blog-entry-category"><a href="category-dev.html">Dev</a></span></div><div class="blog-entry-body"><span style="font-size:14px; "><p>Following on from my previous blog post on ReactiveProperty for MVVM, I looked to see what else might work well with Xamarin.Forms and F#. On <a href="https://github.com/fsprojects">fsprojects</a> on GitHub, exists a repo called <a href="https://github.com/fsprojects/FSharp.ViewModule">FSharp.ViewModule</a> by <a href="/span>https://github.com/ReedCopsey<span style="font-size:14px; "">Reed Copsey</a> and others. This repo has some pretty interesting code to do MVVM with F#.  For the purposes of this post and the source code, I&rsquo;m only using the FSharp.ViewModule.Core from this repo. The full view module repo, takes a little bit different approach to MVVM and is more functional. It looks great but I&rsquo;m not sure everything is ready for use in development right now. The core module seems to work very well and hence its use in this demo.</p>
+		<div id="unique-entry-id-9" class="blog-entry"><h1 class="blog-entry-title">More F#, Xamarin.Forms and MVVM</h1><div class="blog-entry-date">14/10/14 10:25 Filed in: <span class="blog-entry-category"><a href="category-dev.html">Dev</a></span></div><div class="blog-entry-summary"></div><div class="blog-entry-body"><span style="font-size:14px; "><p>Following on from my previous blog post on ReactiveProperty for MVVM, I looked to see what else might work well with Xamarin.Forms and F#. On <a href="https://github.com/fsprojects">fsprojects</a> on GitHub, exists a repo called <a href="https://github.com/fsprojects/FSharp.ViewModule">FSharp.ViewModule</a> by <a href="/span>https://github.com/ReedCopsey<span style="font-size:14px; "">Reed Copsey</a> and others. This repo has some pretty interesting code to do MVVM with F#.  For the purposes of this post and the source code, I&rsquo;m only using the FSharp.ViewModule.Core from this repo. The full view module repo, takes a little bit different approach to MVVM and is more functional. It looks great but I&rsquo;m not sure everything is ready for use in development right now. The core module seems to work very well and hence its use in this demo.</p>
 
 <p>With the core module I created a small Xamarin.Forms forms project, that contains a tab page controller with three tabs. The first tab is the tip calculator from my previous blog post. The second tab is a port of a simple color editor from a Xamarin.Forms C# example. The third is a port from the Xamarin.Forms-Monkeys application by <a href="https://github.com/jamesmontemagno/Xamarin.Forms-Monkeys">James Montemagno</a>.  This app shows creating and binding various forms to view models and UI in code. At present, I am not using XAML, as I like the ability to use the full language features in describing my user interface. I also borrowed some other code to create a simple view module to view look up factory, that we will use for view model navigation.</p>
 
@@ -158,27 +153,21 @@ The view module core, also supports commands and commands dependent on propertie
 <p>Before I started writing this demo, I attempted to get <a href="https://github.com/reactiveui/ReactiveUI">ReactiveUI</a> working with F#. Unfortunately, there is a wee bit of impedance mismatch between ReactiveUI and #, due to heavy use of C# lambda functions and lambda expressions. This requires writing wrappers for most of its methods to make them easier to use. I will revisit that in the future. For now, using the view module core, you can get going quickly and still add in reactive UI features, as anything that emits an event (like our view model properties), is F#, is automatically an observable. I will update this demo with some examples of that soon.</p>
 
 <p>You can find the code for this demo application <a href="https://github.com/pillowsoft/FSharpXamFormsViewModelDemo">here</a>. </p>
-</span><p class="blog-entry-tags">Tags: <a href="tag-f0023.html" title="F#" rel="tag">F#</a>, <a href="tag-.net.html" title=".NET" rel="tag">.NET</a>, <a href="tag-functional-programming.html" title="Functional Programming" rel="tag">Functional Programming</a>, <a href="tag-rx.html" title="Rx" rel="tag">Rx</a></p><div class="blog-entry-comments"><a class="blog-comment-link" href="more-fsharp-xamforms-mvvm.html#disqus_thread">Comments</a></div></div></div>
-<div id="unique-entry-id-8" class="blog-entry"><h1 class="blog-entry-title"><a href="fsharp-xamforms-rx-ui.html" class="blog-permalink">F#, Xamarin.Forms and Reactive UI</a></h1><div class="blog-entry-date">06/10/14 11:58 Filed in: <span class="blog-entry-category"><a href="category-dev.html">Dev</a></span></div><div class="blog-entry-body">F# is finally getting to be pretty useful for mobile development with Xamarin Studio. Here&rsquo;s a look at how to use it along with Reactive Extensions for FRP (Functional Reactive Programming).<span class="blog-read-more"><a href="fsharp-xamforms-rx-ui.html"> Read More...</a></span><p class="blog-entry-tags">Tags: <a href="tag-f0023.html" title="F#" rel="tag">F#</a>, <a href="tag-.net.html" title=".NET" rel="tag">.NET</a>, <a href="tag-functional-programming.html" title="Functional Programming" rel="tag">Functional Programming</a>, <a href="tag-rx.html" title="Rx" rel="tag">Rx</a></p><div class="blog-entry-comments"><a class="blog-comment-link" href="fsharp-xamforms-rx-ui.html#disqus_thread">Comments</a></div></div></div>
-
-
+</span><p class="blog-entry-tags">Tags: <a href="tag-f0023.html" title="F#" rel="tag">F#</a>, <a href="tag-.net.html" title=".NET" rel="tag">.NET</a>, <a href="tag-functional-programming.html" title="Functional Programming" rel="tag">Functional Programming</a>, <a href="tag-rx.html" title="Rx" rel="tag">Rx</a></p><div class="blog-entry-comments"><div id="disqus_thread">
+<script type="text/javascript"> var disqus_shortname = 'pillowsoftllc';
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	var disqus_identifier = '780d787cca273162a09570674e8a4f6b';
+	dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div></div></div></div>
 	</div>
 	
 	 
-
-	
-
-<script type="text/javascript">
-//<![CDATA[
-var disqus_shortname = 'pillowsoftllc';
-(function() {
-	var s = document.createElement('script'); s.async = true;
-	s.type = 'text/javascript';
-	s.src = 'http://disqus.com/forums/' + disqus_shortname + '/count.js';
-	(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-	}());
-//]]>
-</script>
 
 									<div class="SolsticeClearer"></div>
 								</div><!--/contentWrapper-->
