@@ -1,8 +1,0 @@
-body:before { 
-                            white-space: pre; 
-                            font-family: monospace; 
-                            content: 'Less NameError: variable @navbar-height is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\navbar.less on line 13, column 15: \A 12   position: relative; \A 13   min-height: @navbar-height; \\\\ Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode) \A 14   margin-bottom: @navbar-margin-bottom; \A  \A '; } 
-                            
-                            body * { 
-                            display: none; 
-                            } 

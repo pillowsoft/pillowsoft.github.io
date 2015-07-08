@@ -1,8 +1,0 @@
-body:before { 
-                            white-space: pre; 
-                            font-family: monospace; 
-                            content: 'Less NameError: variable @label-color is undefined in \\Users\\bpillow\\Git\\WebSites\\Mixture\\PillowSoft\\assets\\css\\bootstrap\\labels.less on line 11, column 10: \A 10   line-height: 1; \A 11   color: @label-color; \A 12   text-align: center; \A  \A '; } 
-                            
-                            body * { 
-                            display: none; 
-                            } 
