@@ -8,4 +8,14 @@
 <url> <loc>http://pillowsoft.com/blog/cut-the-cord/cut-the-cord.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://pillowsoft.com/blog/s3-web-hosting/s3-web-hosting.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://pillowsoft.com/blog/reactjs-kitchen-sink/reactjs-kitchen-sink.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/Ideas/Ideas.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/Video/Video.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/LifeHacking/LifeHacking.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/Leisure/Leisure.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/Web/Web.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/S3/S3.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/ReactJS/ReactJS.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/tags/RxJs/RxJs.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/categories/General/General.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://pillowsoft.com/categories/Dev/Dev.html</loc> <changefreq>daily</changefreq> <priority>0.5</priority> </url>
 </urlset>
